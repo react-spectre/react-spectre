@@ -7,4 +7,9 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 <br><br><br>
 </div>
 
-# This project is under development, not intended for production yet.
+<div align=center>
+
+# This project is under development.
+## Not ready for production use.
+
+</div>
