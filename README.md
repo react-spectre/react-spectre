@@ -14,11 +14,14 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 </div>
 
+<br><br><br>
+
 ## Packages
 
  - [`@react-spectre/typography`](packages/typography)
 
 <div align=center>
+<br><br><br>
 
 Made with :heart: by [Rubens Mariuzzo](https://github.com/rmariuzzo).
 
