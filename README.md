@@ -16,7 +16,7 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Packages
 
- - [`@react-spectre/typography`](tree/master/packages/typograhy)
+ - [`@react-spectre/typography`](packages/typography)
 
 <div align=center>
 
