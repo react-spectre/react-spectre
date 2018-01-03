@@ -8,6 +8,7 @@
   "license": "MIT",
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.3",
+    "@storybook/addon-info": "^3.3.3",
     "@storybook/addon-knobs": "^3.3.3",
     "@storybook/addon-links": "^3.3.3",
     "@storybook/react": "^3.3.3",
