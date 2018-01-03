@@ -17,6 +17,8 @@ yarn add @react-spectre/typograhy
 npm install @react-spectre/typograhy --save
 ```
 
+<br><br><br>
+
 ## Usage
 
 ### Headings
@@ -56,6 +58,7 @@ A label can be added to a `Heading` using the `label` prop:
 ```
 
 <div align=center>
+<br><br><br>
 
 Made with :heart: by [Rubens Mariuzzo](https://github.com/rmariuzzo).
 
