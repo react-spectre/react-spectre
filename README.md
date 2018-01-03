@@ -13,3 +13,11 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 ## Not ready for production use.
 
 </div>
+
+<div align=center>
+
+Made with :heart: by [Rubens Mariuzzo](https://github.com/rmariuzzo).
+
+[MIT License](LICENSE)
+
+</div>
