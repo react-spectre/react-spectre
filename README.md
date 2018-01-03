@@ -18,8 +18,8 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Packages
 
- - [Typography - `@react-spectre/typography`](packages/typography)
- - [Button - `@react-spectre/button`](packages/button)
+ - [**Typography** - `@react-spectre/typography`](packages/typography)
+ - [**Button** - `@react-spectre/button`](packages/button)
 
 <div align=center>
 <br><br><br>
