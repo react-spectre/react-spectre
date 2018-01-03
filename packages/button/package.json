@@ -1,0 +1,17 @@
+{
+  "name": "@react-spectre/button",
+  "version": "1.0.0",
+  "description": "React components for Spectre.css's buttons.",
+  "main": "src/index.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/button",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  }
+}
