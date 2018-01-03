@@ -10,11 +10,11 @@ React components for Spectre.css's typography
 ## Installation
 
 ```shell
-yarn add @react-spectre/typograhy
+yarn add @react-spectre/typography
 ```
 
 ```shell
-npm install @react-spectre/typograhy --save
+npm install @react-spectre/typography --save
 ```
 
 <br><br><br>
