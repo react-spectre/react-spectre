@@ -23,38 +23,47 @@ npm install @react-spectre/button --save
 
 ### Buttons
 
-There are 7 components used for headings. `H1`-`H6` for headings from level 1 to 6 and `Label` to add a label inside any `H1`-`H6`.
+There is 1 single component used for buttons: `Button`.
 
 ```js
 import { Button } from '@react-spectre/button'
 ```
 
-Headings can have contents by passing children components or setting the `contents` prop:
+Buttons can have 3 different base styles: default, primary and link. The two latter can be specifed using props with the same name:
 
 ```jsx
-<H1>Viewing all users</H1>
-<H1 contents="Viewing all users" />
+<Button>Default</Button>
+<Button primary>Primary</Button>
+<Button link>Link</Button>
 ```
 
-A label can be added to a `Heading` using the `label` prop:
+Buttons can be colored using: `success` or `error` props:
 
 ```jsx
-<H1 contents="Viewing all users" label="(185 in total)" />
+<Button success>Success</Button>
+<Button error>Error</Button>
+```
 
-// The following is an alternative to render the same.
-<H1 label="(185 in total)">Viewing all users</H1>
+Buttons can have two sizes using: `small` or `large` props:
 
-// The following is another alternative to render the same.
-<H1>
-  Viewing all users
-  <H1.Label>(185 in total)</H1.Label>
-</H1>
+```jsx
+<Button small>Small</Button>
+<Button large>Large</Button>
+```
 
-// And this one too.
-<H1>
-  Viewing all users
-  <H1.Label contents="(185 in total)" />
-</H1>
+Buttons can have fixed sizes using: `action` or `circle` props:
+
+```jsx
+<Button action>Action</Button>
+<Button circle>Circle</Button>
+```
+
+Buttons can have 3 different states using: `active`, `disabled` or `loading`:
+
+```jsx
+<Button active>Active</Button>
+<Button disabled>Disabled</Button>
+<Button loading>Loading</Button>
 ```
 
 <div align=center>
