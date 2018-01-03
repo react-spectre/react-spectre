@@ -37,12 +37,16 @@ Buttons can have 3 different base styles: default, primary and link. The two lat
 <Button link>Link</Button>
 ```
 
+#### Colors
+
 Buttons can be colored using: `success` or `error` props:
 
 ```jsx
 <Button success>Success</Button>
 <Button error>Error</Button>
 ```
+
+#### Sizes
 
 Buttons can have two sizes using: `small` or `large` props:
 
@@ -57,6 +61,8 @@ Buttons can have fixed sizes using: `action` or `circle` props:
 <Button action>Action</Button>
 <Button circle>Circle</Button>
 ```
+
+#### States
 
 Buttons can have 3 different states using: `active`, `disabled` or `loading`:
 
