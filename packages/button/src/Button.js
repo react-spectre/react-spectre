@@ -68,4 +68,22 @@ Button.propTypes = {
   loading: PropTypes.bool
 }
 
-export { Button }
+const Group = ({ children, ...props }) => {
+  const { block, ...otherProps } = props
+  const classNames = cn('btn-group', { 'btn-group-block': block })
+
+  return (
+    <div {...otherProps} className={classNames}>
+      {children}
+    </div>
+  )
+}
+
+Group.propTypes = {
+  children: PropTypes.any,
+  block: PropTypes.bool
+}
+
+Button.Group = Group
+
+export { Button, Group }

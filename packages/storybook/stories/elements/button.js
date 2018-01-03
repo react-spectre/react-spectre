@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Button } from '@react-spectre/button'
+import { Button, Group } from '@react-spectre/button'
 
 export default stories => {
   stories.add(
@@ -49,6 +49,13 @@ export default stories => {
         <br />
         <br />
         <Button loading>Loading Button</Button>
+        <br />
+        <br />
+        <Group>
+          <Button>First</Button>
+          <Button>Second</Button>
+          <Button>Third</Button>
+        </Group>
       </div>
     ))
   )

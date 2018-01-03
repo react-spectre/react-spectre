@@ -72,6 +72,18 @@ Buttons can have 3 different states using: `active`, `disabled` or `loading`:
 <Button loading>Loading</Button>
 ```
 
+#### Groups
+
+Two or more buttons can be group when nested inside a `Group` or `Button.Group`:
+
+```jsx
+<Button.Group>
+  <Button>First</Button>
+  <Button>Second</Button>
+  <Button>Third</Button>
+</Button.Group>
+```
+
 <div align=center>
 <br><br><br>
 
