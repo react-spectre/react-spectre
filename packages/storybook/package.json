@@ -1,0 +1,13 @@
+{
+  "name": "@react-spectre/storybook",
+  "version": "1.0.0",
+  "description": "Stories for React Spectre.",
+  "main": "index.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/storybook",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@react-spectre/button": "^1.0.0",
+    "@react-spectre/typography": "^1.0.0"
+  }
+}
