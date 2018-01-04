@@ -26,6 +26,11 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Development
 
+### Setup
+
+ 1. `yarn` or `npm install`
+ 2. `lerna bootstrap`
+
 ### Production Build
 
  1. `yarn build`
