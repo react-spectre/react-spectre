@@ -34,10 +34,10 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  1. `yarn` or `npm install`
  2. `lerna bootstrap`
 
-### Production Build
+### Scripts
 
- 1. `yarn build`
- 2. `lerna publish`
+ - **Prerelease**: `npm run prerelease`
+ - **Release**: `npm run release`
 
 <div align=center>
 <br><br><br>

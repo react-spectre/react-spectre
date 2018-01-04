@@ -42,6 +42,8 @@
     "storybook:build": "build-storybook",
     "build": "cross-env NODE_ENV=production rollup -c",
     "build:watch": "npm run build -- --watch",
-    "eslint": "eslint . --ignore-path .gitignore"
+    "eslint": "eslint . --ignore-path .gitignore",
+    "release": "npm run build && lerna publish",
+    "prerelease": "npm run build && lerna publish --cd-version prerelease"
   }
 }
