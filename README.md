@@ -22,6 +22,13 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  - [**Table** - `@react-spectre/table`](packages/table)
  - [**Button** - `@react-spectre/button`](packages/button)
 
+### Development
+
+#### Production Build
+
+ 1. `yarn build`
+ 2. `lerna publish`
+
 <div align=center>
 <br><br><br>
 
