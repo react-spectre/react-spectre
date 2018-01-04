@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-spectre/button": "^1.0.0-3",
+    "@react-spectre/form": "^1.0.0-3",
     "@react-spectre/table": "^1.0.0-3",
     "@react-spectre/typography": "^1.0.0-3"
   },
