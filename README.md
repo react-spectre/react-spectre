@@ -24,9 +24,9 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 <br><br><br>
 
-### Development
+## Development
 
-#### Production Build
+### Production Build
 
  1. `yarn build`
  2. `lerna publish`
