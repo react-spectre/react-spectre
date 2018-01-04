@@ -19,8 +19,11 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 ## Packages
 
  - [**Typography** - `@react-spectre/typography`](packages/typography)
+   - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
  - [**Table** - `@react-spectre/table`](packages/table)
+   - Components: `Table`, `Header`, `Body`, `Row`, `Heading` and `Cell`.
  - [**Button** - `@react-spectre/button`](packages/button)
+   - Components: `Button` and `Group`.
 
 <br><br><br>
 
