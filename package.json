@@ -37,8 +37,11 @@
     "uglify-es": "^3.3.4"
   },
   "scripts": {
+    "start": "npm run build && npm run build:watch & npm run storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build": "cross-env NODE_ENV=production rollup -c"
+    "storybook:build": "build-storybook",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "build:watch": "npm run build -- --watch",
+    "eslint": "eslint . --ignore-path .gitignore"
   }
 }
