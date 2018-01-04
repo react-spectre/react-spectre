@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/button",
-  "version": "1.0.0-0",
+  "version": "1.0.0-1",
   "description": "React components for Spectre.css's buttons.",
   "main": "src/index.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/button",
