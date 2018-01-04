@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import cn from 'classnames'
+import classnames from 'classnames'
 
 const Table = ({ children, ...props }) => {
   const { className, striped, hover, scroll, ...otherProps } = props
 
-  const classNames = cn('table', className, {
+  const classNames = classnames('table', className, {
     'table-striped': striped,
     'table-hover': hover,
     'table-scroll': scroll
@@ -41,7 +41,7 @@ Body.propTypes = {
 const Row = ({ children, ...props }) => {
   const { className, active, ...otherProps } = props
 
-  const classNames = cn(className, { active: active })
+  const classNames = classNames(className, { active: active })
 
   return (
     <tr {...otherProps} className={classNames}>

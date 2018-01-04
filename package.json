@@ -17,18 +17,28 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.3",
     "eslint": "^4.14.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.4.0",
     "eslint-plugin-react": "^7.5.1",
+    "glob": "^7.1.2",
     "lerna": "^2.5.1",
+    "lodash": "^4.17.4",
     "prettier": "^1.9.2",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "rollup": "^0.53.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.3.4"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "cross-env NODE_ENV=production rollup -c"
   }
 }

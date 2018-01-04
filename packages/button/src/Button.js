@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import cn from 'classnames'
+import classnames from 'classnames'
 
 const Button = ({ children, ...props }) => {
   const {
@@ -27,7 +27,7 @@ const Button = ({ children, ...props }) => {
     ...otherProps
   } = props
 
-  const classNames = cn(
+  const classNames = classnames(
     'btn',
     {
       'btn-primary': primary,
