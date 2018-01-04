@@ -1,9 +1,11 @@
 import { storiesOf } from '@storybook/react'
 
-import Typography from './elements/typography'
-import Button from './elements/button'
+import typography from './elements/typography'
+import button from './elements/button'
+import table from './elements/table'
 
 const stories = storiesOf('Elements', module)
 
-Typography(stories)
-Button(stories)
+typography(stories)
+button(stories)
+table(stories)
