@@ -41,7 +41,7 @@ Body.propTypes = {
 const Row = ({ children, ...props }) => {
   const { className, active, ...otherProps } = props
 
-  const classNames = classNames(className, { active: active })
+  const classNames = classnames(className, { active: active })
 
   return (
     <tr {...otherProps} className={classNames}>

@@ -70,7 +70,7 @@ Button.propTypes = {
 
 const Group = ({ children, ...props }) => {
   const { block, ...otherProps } = props
-  const classNames = cn('btn-group', { 'btn-group-block': block })
+  const classNames = classnames('btn-group', { 'btn-group-block': block })
 
   return (
     <div {...otherProps} className={classNames}>
