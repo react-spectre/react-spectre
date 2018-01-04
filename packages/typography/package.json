@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/typography",
-  "version": "1.0.0",
+  "version": "1.0.0-0",
   "description": "React components for Spectre.css's typography.",
   "main": "src/index.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/typography",
@@ -13,5 +13,8 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
