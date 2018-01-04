@@ -9,6 +9,10 @@
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/table",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
   "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
