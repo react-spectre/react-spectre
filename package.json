@@ -46,6 +46,6 @@
     "build:watch": "npm run build -- --watch",
     "eslint": "eslint . --ignore-path .gitignore",
     "release": "npm run build && lerna publish",
-    "process:markdown": "markdown-exec README.md"
+    "markdown:update": "markdown-exec README.md"
   }
 }
