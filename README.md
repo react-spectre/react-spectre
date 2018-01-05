@@ -20,9 +20,17 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
  - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
    - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
+
  - [**Table** - `@react-spectre/table`](packages/table) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> (gzipped!)
    - Components: `Table`, `Header`, `Body`, `Row`, `Heading` and `Cell`.
+
  - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
+   - Components: `Button` and `Group`.
+
+ - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->754 B<!-- /markdown-exec --> (gzipped!)
+   - Components: `Input`, `TextArea` and `Select`.
+
+ - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
    - Components: `Button` and `Group`.
 
 <br><br><br>
