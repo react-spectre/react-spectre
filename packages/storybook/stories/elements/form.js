@@ -1,7 +1,15 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Input, TextArea, Select } from '@react-spectre/form'
+import {
+  Input,
+  Radio,
+  Select,
+  Switch,
+  CheckBox,
+  TextArea,
+  FormGroup
+} from '@react-spectre/form'
 
 export default stories => {
   stories.add(
@@ -39,6 +47,20 @@ export default stories => {
           <option>Skype</option>
           <option>Hipchat</option>
         </Select>
+        <FormGroup label="Gender">
+          <Radio label="Male" name="gender" defaultChecked />
+          <Radio label="Female" name="gender" />
+        </FormGroup>
+        <FormGroup>
+          <Switch label="Send me emails with news and tips" />
+          <Switch label="Send me emails with news and tips" defaultChecked />
+        </FormGroup>
+        <FormGroup>
+          <CheckBox label="Remember me" />
+        </FormGroup>
+        <FormGroup>
+          <CheckBox label="Remember me" defaultChecked />
+        </FormGroup>
       </div>
     ))
   )
