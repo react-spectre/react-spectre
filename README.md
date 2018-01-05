@@ -27,8 +27,8 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
    - Components: `Button` and `Group`.
 
- - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->754 B<!-- /markdown-exec --> (gzipped!)
-   - Components: `Input`, `TextArea` and `Select`.
+ - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> (gzipped!)
+   - Components: FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
 
  - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
    - Components: `Button` and `Group`.
