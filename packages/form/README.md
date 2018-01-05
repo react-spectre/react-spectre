@@ -1,8 +1,8 @@
 <div align=center>
 <img src="assets/react-spectre-logo.png" width="256" height="256">
 
-# `@react-spectre/table`
-React components for Spectre.css's table.
+# `@react-spectre/form`
+React components for Spectre.css's form.
 
 <br><br><br>
 </div>
@@ -10,76 +10,92 @@ React components for Spectre.css's table.
 ## Installation
 
 ```shell
-yarn add @react-spectre/table
+yarn add @react-spectre/form
 ```
 
 ```shell
-npm install @react-spectre/table --save
+npm install @react-spectre/form --save
 ```
 
 <br><br><br>
 
 ## Usage
 
-### Table
+### Form
 
-There are 6 components exported for tables: `Table`, `Header` (thead), `Body` (tbody), `Row` (tr), `Heading` (th) and `Cell` (td).
+There are 7 components exported for form: `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
 
 ```js
-import { Table, Header, Body, Row, Heading, Cell } from '@react-spectre/table'
+import { FormGroup, Input, TextArea, Selec, Radio, CheckBox, Switch } from '@react-spectre/form'
 ```
 
-> **Note:** The main component is `Table`, other component can be accessed through `Table` for example: `Table.Header`, `Table.Body`, `Table.Row`, etc...
+#### FormGroup
 
-#### Example
+A form group is a wrapper for form controls.
 
 ```jsx
-<Table striped hover scroll>
-  <Header>
-    <Row>
-      <Heading>Name</Heading>
-      <Heading>Age</Heading>
-      <Heading>Is admin?</Heading>
-    </Row>
-  </Header>
-  <Body>
-    <Row active>
-      <Cell>Rubens</Cell>
-      <Cell>98</Cell>
-      <Cell>Yes</Cell>
-    </Row>
-  </Body>
-</Table>
+<FormGroup label="Name">
+  <Input />
+</FormGroup>
 ```
 
-Tables can have 2 different style decorators: `striped` and `hover`.
+#### Input
 
 ```jsx
-<Table></Table>
-<Table striped></Table>
-<Table hover></Table>
-<Table hover striped></Table>
+<Input />              // Default type="text"
+<Input type="email" />
 ```
 
-#### Rows
-
-Table rows can be marked as active using: `active` prop:
+#### TextArea
 
 ```jsx
-<Table>
-  <Body>
-    <Row></Row>
-    <Row active></Row>
-  </Body>
-<Table>
+<TextArea />
+<TextArea rows="3" />
 ```
 
-#### Scroll
-
-A table can have horizontal scroll using the `scroll` props:
+#### Select
 
 ```jsx
-<Table scroll></Table>
+<Select>
+  <option>Choose an option</option>
+  <option>Slack</option>
+  <option>Skype</option>
+  <option>Hipcat</option>
+</Select>
+
+<Select multiple>
+  <option>Choose an option</option>
+  <option>Slack</option>
+  <option>Skype</option>
+  <option>Hipcat</option>
+</Select>
+```
+
+#### Radio
+
+```jsx
+<FormGroup label="Genre">
+  <Radio label="Male"   name="genre" defaultChecked>
+  <Radio label="Female" name="genre">
+</FormGroup>
+```
+
+#### CheckBox
+
+```jsx
+<FormGroup>
+  <CheckBox label="Remember me">
+  <CheckBox label="Remember me" defaultChecked>
+</FormGroup>
+```
+
+#### Switch
+
+```jsx
+<FormGroup>
+  <Switch label="Send me emails with news and tips">
+  <Switch label="Send me emails with news and tips" defaultChecked>
+</FormGroup>
 ```
 
 <div align=center>
