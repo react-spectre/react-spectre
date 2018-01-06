@@ -37,16 +37,20 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Development
 
+It is recommended to use `yarn` for easy development.
+
 ### Setup
 
  1. `yarn` or `npm install`
  2. `yarn lerna -- bootstrap` o `npm run lerna -- bootstrap`
 
-### FAQ
+### Creating a new package
 
-#### How to create a new package?
+**The script way**:
 
-**The script way**: `yarn package:create -- <name-of-package>`
+```shell
+yarn package:create -- <name-of-package>
+```
 
 **The manual way**:
 
@@ -57,10 +61,6 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
   5. Run `yarn init` or `npm package` (don't worry for the version, it will be overriden on publishing).
   6. Modify the `package.json` file and add `{ "publishConfig": { "access": "public" } }` (this allow the package to be published with lerna as scoped package).
 
-### Scripts
-
- - **Prerelease**: `npm run prerelease`
- - **Release**: `npm run release`
 
 <div align=center>
 <br><br><br>
