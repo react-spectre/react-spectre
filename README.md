@@ -42,6 +42,21 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  1. `yarn` or `npm install`
  2. `yarn lerna -- bootstrap` o `npm run lerna -- bootstrap`
 
+### FAQ
+
+#### How to create a new package?
+
+**The script way**: `yarn package:create -- <name-of-package>`
+
+**The manual way**:
+
+  1. Create a directory inside [`packages`](packages).
+  2. Copy [`LICENSE`](packages/typography/LICENSE) file from another package.
+  3. Copy [`README.md`](packages/typography/README.md) file from another package and modify it.
+  4. Copy [`assets`](packages/typography/assets) directory from another package.
+  5. Run `yarn init` or `npm package` (don't worry for the version, it will be overriden on publishing).
+  6. Modify the `package.json` file and add `{ "publishConfig": { "access": "public" } }` (this allow the package to be published with lerna as scoped package).
+
 ### Scripts
 
  - **Prerelease**: `npm run prerelease`

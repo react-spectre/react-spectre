@@ -36,6 +36,7 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-filesize": "^1.5.0",
     "rollup-plugin-uglify": "^2.0.1",
+    "shelljs": "^0.7.8",
     "uglify-es": "^3.3.4"
   },
   "scripts": {
@@ -47,6 +48,7 @@
     "build:watch": "npm run build -- --watch",
     "eslint": "eslint . --ignore-path .gitignore",
     "release": "npm run build && lerna publish",
-    "markdown:update": "markdown-exec README.md"
+    "markdown:update": "markdown-exec README.md",
+    "package:create": "node ./scripts/create-package"
   }
 }
