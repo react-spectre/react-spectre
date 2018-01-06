@@ -40,7 +40,7 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 ### Setup
 
  1. `yarn` or `npm install`
- 2. `lerna bootstrap`
+ 2. `yarn lerna -- bootstrap` o `npm run lerna -- bootstrap`
 
 ### Scripts
 
