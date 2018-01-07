@@ -26,7 +26,7 @@ npm install @react-spectre/form --save
 There are 7 components exported for form: `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
 
 ```js
-import { FormGroup, Input, TextArea, Selec, Radio, CheckBox, Switch } from '@react-spectre/form'
+import { FormGroup, Input, TextArea, Select, Radio, CheckBox, Switch } from '@react-spectre/form'
 ```
 
 #### FormGroup

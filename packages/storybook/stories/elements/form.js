@@ -26,7 +26,7 @@ export default stories => {
       ## Usage
 
       ~~~js
-      import { Form } from '@react-spectre/form'
+      import { FormGroup, Input, TextArea, Select, Radio, CheckBox, Switch } from '@react-spectre/form'
       ~~~
 
       **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/form)**
