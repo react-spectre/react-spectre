@@ -4,11 +4,15 @@ import classnames from 'classnames'
 
 const Row = ({ children, ...props }) => {
   const { className, gapless, oneline, ...otherProps } = props
-  const classes = []
-  if (gapless) classes.push('col-gapless')
-  if (oneline) classes.push('col - oneline')
+  const classNames = classnames(
+    'columns',
+    {
+      'col-gapless': gapless,
+      'col-oneline': oneline
+    },
+    className
+  )
 
-  const classNames = classnames('columns', classes, className)
   return (
     <div className={classNames} {...otherProps}>
       {children}

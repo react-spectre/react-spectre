@@ -46,7 +46,7 @@ Col.propTypes = {
   lg: PropTypes.number,
   xl: PropTypes.number,
   all: PropTypes.number,
-  offset: PropTypes.number,
+  offset: PropTypes.string,
   hide: PropTypes.array,
   show: PropTypes.array
 }
