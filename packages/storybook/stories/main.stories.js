@@ -6,10 +6,17 @@ import table from './elements/table'
 import form from './elements/form'
 import icon from './elements/icon'
 
-const stories = storiesOf('Elements', module)
+import grid from './layout/grid'
 
-typography(stories)
-button(stories)
-table(stories)
-form(stories)
-icon(stories)
+const elementStories = storiesOf('Elements', module)
+const layoutStories = storiesOf('Layout', module)
+
+// Elements Stories
+typography(elementStories)
+button(elementStories)
+table(elementStories)
+form(elementStories)
+icon(elementStories)
+
+// Layout Stories
+grid(layoutStories)
