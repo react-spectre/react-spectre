@@ -11,7 +11,8 @@
     "@react-spectre/form": "^1.0.0-6",
     "@react-spectre/icon": "^1.0.0-6",
     "@react-spectre/table": "^1.0.0-6",
-    "@react-spectre/typography": "^1.0.0-6"
+    "@react-spectre/typography": "^1.0.0-6",
+    "@react-spectre/layout": "^1.0.0-6"
   },
   "private": true
 }

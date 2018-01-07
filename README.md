@@ -33,6 +33,9 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
    - Components: `Button` and `Group`.
 
+  - [**Icon** - `@react-spectre/layout`](packages/layout) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->776 B<!-- /markdown-exec --> (gzipped!)
+  - Components: `Grid`, `Row`, `Col`.
+
 <br><br><br>
 
 ## Development
