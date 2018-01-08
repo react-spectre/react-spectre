@@ -1,19 +1,19 @@
 {
   "name": "@react-spectre/storybook",
-  "version": "1.0.0-7",
+  "version": "1.0.0-8",
   "description": "Stories for React Spectre.",
   "main": "index.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/storybook",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
   "license": "MIT",
   "dependencies": {
-    "@react-spectre/button": "^1.0.0-7",
-    "@react-spectre/form": "^1.0.0-7",
-    "@react-spectre/icon": "^1.0.0-7",
-    "@react-spectre/label": "^1.0.0",
-    "@react-spectre/layout": "^1.0.0-7",
-    "@react-spectre/table": "^1.0.0-7",
-    "@react-spectre/typography": "^1.0.0-7"
+    "@react-spectre/button": "^1.0.0-8",
+    "@react-spectre/form": "^1.0.0-8",
+    "@react-spectre/icon": "^1.0.0-8",
+    "@react-spectre/label": "^1.0.0-8",
+    "@react-spectre/layout": "^1.0.0-8",
+    "@react-spectre/table": "^1.0.0-8",
+    "@react-spectre/typography": "^1.0.0-8"
   },
   "private": true
 }

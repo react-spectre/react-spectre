@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/layout",
-  "version": "1.0.0-7",
+  "version": "1.0.0-8",
   "description": "React components for Spectre.css's flexbox grid system.",
   "jsnext:main": "src/index.js",
   "main": "dist/layout.js",
@@ -18,7 +18,7 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/label": "^1.0.0",
+    "@react-spectre/label": "^1.0.0-8",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },
