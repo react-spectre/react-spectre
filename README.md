@@ -11,6 +11,7 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 # This project is under development.
 ## Not ready for production use.
+### [Check the roadmap](#roadmap)
 
 </div>
 
@@ -71,6 +72,47 @@ yarn package:create -- <name-of-package>
   5. Run `yarn init` or `npm package` (don't worry for the version, it will be overriden on publishing).
   6. Modify the `package.json` file and add `{ "publishConfig": { "access": "public" } }` (this allow the package to be published with lerna as scoped package).
 
+
+<br><br><br>
+
+## Roadmap
+
+  - **Elements**
+    - [x] Typography
+    - [x] Tables
+    - [x] Buttons
+    - [x] Forms
+    - [x] Icons
+    - [x] Labels
+    - [ ] ~Labels~
+    - [ ] Media
+
+  - **Layout**
+    - [x] Flexbox Grid
+    - [x] Responsive
+    - [ ] Navbar
+
+  - **Components**
+    - [ ] Accordions
+    - [ ] Autocomplete
+    - [ ] Avatars
+    - [ ] Badges
+    - [ ] Bars
+    - [ ] Breadcrumbs
+    - [ ] Cards
+    - [ ] Chips
+    - [ ] Empty states
+    - [ ] Menus
+    - [ ] Modals
+    - [ ] Navs
+    - [ ] Pagination
+    - [ ] Panels
+    - [ ] Popovers
+    - [ ] Steps
+    - [ ] Tabs
+    - [ ] Tiles
+    - [ ] Toasts
+    - [ ] Tooltips
 
 <div align=center>
 <br><br><br>
