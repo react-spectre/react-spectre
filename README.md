@@ -90,29 +90,39 @@ yarn package:create -- <name-of-package>
   - **Layout**
     - [x] Flexbox Grid
     - [x] Responsive
-    - [ ] Navbar
+    - [ ] Navbar - [View issue](https://github.com/react-spectre/react-spectre/issues/3)
 
   - **Components**
-    - [ ] Accordions
-    - [ ] Autocomplete
-    - [ ] Avatars
-    - [ ] Badges
-    - [ ] Bars
-    - [ ] Breadcrumbs
-    - [ ] Cards
-    - [ ] Chips
-    - [ ] Empty states
-    - [ ] Menus
-    - [ ] Modals
-    - [ ] Navs
-    - [ ] Pagination
-    - [ ] Panels
-    - [ ] Popovers
-    - [ ] Steps
-    - [ ] Tabs
-    - [ ] Tiles
-    - [ ] Toasts
-    - [ ] Tooltips
+    - [ ] Accordions - [View issue](https://github.com/react-spectre/react-spectre/issues/4)
+    - [ ] Autocomplete - [View issue](https://github.com/react-spectre/react-spectre/issues/5)
+    - [ ] Avatars - [View issue](https://github.com/react-spectre/react-spectre/issues/6)
+    - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
+    - [ ] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
+    - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
+    - [ ] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
+    - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
+    - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
+    - [ ] Menus - [View issue](https://github.com/react-spectre/react-spectre/issues/13)
+    - [ ] Modals - [View issue](https://github.com/react-spectre/react-spectre/issues/14)
+    - [ ] Navs - [View issue](https://github.com/react-spectre/react-spectre/issues/15)
+    - [ ] Pagination - [View issue](https://github.com/react-spectre/react-spectre/issues/16)
+    - [ ] Panels - [View issue](https://github.com/react-spectre/react-spectre/issues/17)
+    - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
+    - [ ] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
+    - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
+    - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
+    - [ ] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
+    - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
+
+  - **Utilities**:
+    - [ ] ~Colors~
+    - [ ] ~Cursors~
+    - [ ] ~Display~
+    - [ ] Divider - [View issue](https://github.com/react-spectre/react-spectre/issues/24)
+    - [ ] Loading - [View issue](https://github.com/react-spectre/react-spectre/issues/25)
+    - [ ] ~Position~
+    - [ ] ~Shapes~
+    - [ ] ~Text~
 
 <div align=center>
 <br><br><br>
