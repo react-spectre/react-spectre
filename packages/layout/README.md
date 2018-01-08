@@ -28,12 +28,12 @@ import { Grid, Row, Col } from '@react-spectre/layout'
 ```
 
 ```jsx
-    <Grid>
-        <Row>
-            <Col md={6}> md-6 </Col>
-            <Col md={6}> md-6 </Col>
-        </Row>
-    </Grid>
+<Grid>
+    <Row>
+        <Col md={6}> md-6 </Col>
+        <Col md={6}> md-6 </Col>
+    </Row>
+</Grid>
 ```
 
 ### Row
@@ -43,12 +43,12 @@ By default, Spectre grid has multi-line flexbox enabled. You can add the `onelin
 
 
 ```jsx
-    <Grid>
-        <Row gapless>
-            <Col md={6}> md-6 </Col>
-            <Col md={6}> md-6 </Col>
-        </Row>
-    </Grid>
+<Grid>
+    <Row gapless>
+        <Col md={6}> md-6 </Col>
+        <Col md={6}> md-6 </Col>
+    </Row>
+</Grid>
 ```
 
 ### Col
@@ -69,12 +69,12 @@ Col component has a the following props:
 
 
 ```jsx
-    <Grid>
-        <Row>
-            <Col xs={2} md={6}> xs-2 / md-6 </Col>
-            <Col xs={8} md={6}> xs-8 / md-7 </Col>
-        </Row>
-    </Grid>
+<Grid>
+    <Row>
+        <Col xs={2} md={6}> xs-2 / md-6 </Col>
+        <Col xs={8} md={6}> xs-8 / md-7 </Col>
+    </Row>
+</Grid>
 ```
 
 #### Offset
@@ -82,12 +82,12 @@ Col component has a the following props:
 The Flexbox grid provides margin auto utilities to set offset. Assign `mx`, `ml`, `mr` values to the `offset` props to set margins between columns without using empty columns.
 
 ```jsx
-    <Grid>
-        <Row>
-            <Col all={4} offset={'mr'}> md-6 / offset-mr </Col>
-            <Col all={2}> col-2 </Col>
-        </Row>
-    </Grid>
+<Grid>
+    <Row>
+        <Col all={4} offset={'mr'}> md-6 / offset-mr </Col>
+        <Col all={2}> col-2 </Col>
+    </Row>
+</Grid>
 ```
 
 #### Visibility
@@ -96,12 +96,12 @@ The responsive visibility utilities help show and hide elements on specific view
 It has two props `hide` and `show` which get an array of sizes.
 
 ```jsx
-    <Grid>
-        <Row>
-            <Col all={6} hide={['xs']}{> md-6 / offset-mr </Col>
-            <Col all={6} show={['lg']}> col-2 </Col>
-        </Row>
-    </Grid>
+<Grid>
+    <Row>
+        <Col all={6} hide={['xs']}> md-6 / offset-mr </Col>
+        <Col all={6} show={['lg']}> col-2 </Col>
+    </Row>
+</Grid>
 ```
 
 
@@ -114,18 +114,18 @@ import { Navbar, NavbarBrand, NavbarSection } from '@react-spectre/layout'
 ```
 
 ```jsx
-    <Navbar>
-        <Navbar.Section>
-            <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
-            <a href="#" className="btn btn-link">Docs</a>
-            <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
-        </Navbar.Section>
-        <Navbar.Section>
-            <div className="input-group input-inline">
-                  <input className="form-input" type="text" placeholder="search"/>
-            </div>
-        </Navbar.Section>
-    </Navbar>
+<Navbar>
+    <Navbar.Section>
+        <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
+        <a href="#" className="btn btn-link">Docs</a>
+        <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
+    </Navbar.Section>
+    <Navbar.Section>
+        <div className="input-group input-inline">
+              <input className="form-input" type="text" placeholder="search"/>
+        </div>
+    </Navbar.Section>
+</Navbar>
 ```
 
 > **Note:** The main component is `Navbar`, other component can be accessed through it, for example: `Navbar.Section` and `Navbar.Brand`.
@@ -137,13 +137,13 @@ The navbar component can include logo brand, nav links and buttons, search box o
 The `NavbarSection` components provide a `center` props in case you want to center the elements inside the section.
 
 ```jsx
-    <Navbar>
-        <Navbar.Section center>
-            <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
-            <a href="#" className="btn btn-link">Docs</a>
-            <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
-        </Navbar.Section>
-    </Navbar>
+<Navbar>
+    <Navbar.Section center>
+        <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
+        <a href="#" className="btn btn-link">Docs</a>
+        <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
+    </Navbar.Section>
+</Navbar>
 ```
 
 <div align=center>
