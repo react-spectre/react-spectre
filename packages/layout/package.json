@@ -1,0 +1,27 @@
+{
+  "name": "@react-spectre/layout",
+  "version": "1.0.0-6",
+  "description": "React components for Spectre.css's flexbox grid system.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/layout.js",
+  "browser": "dist/layout.umd.js",
+  "module": "dist/layout.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/layout",
+  "author": "Ángel Piña <six.aps@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
