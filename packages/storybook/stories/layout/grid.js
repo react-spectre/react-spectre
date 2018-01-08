@@ -2,13 +2,13 @@ import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
 import { Grid, Row } from '@react-spectre/layout'
-import {Col} from "../../../layout/src/Col";
+import { Col } from '../../../layout/src/Col'
 
 export default stories => {
   stories.add(
     'Grid',
     withInfo(`
-      React components for Spectre.css's flexbox grid system..
+      React components for Spectre.css's flexbox grid system.
 
       ### Installation
 
