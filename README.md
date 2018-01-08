@@ -18,6 +18,8 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Packages
 
+### Elements
+
   - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
     - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
 
@@ -33,7 +35,12 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
   - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
     - Components: `Button` and `Group`.
 
-  - [**Layout** - `@react-spectre/layout`](packages/layout) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->776 B<!-- /markdown-exec --> (gzipped!)
+  - [**Label** - `@react-spectre/label`](packages/label) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `Label`.
+
+### Layout
+
+  - [**Layout** - `@react-spectre/layout`](packages/layout) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->800 B<!-- /markdown-exec --> (gzipped!)
     - Components: `Grid`, `Row`, `Col`.
 
 <br><br><br>
