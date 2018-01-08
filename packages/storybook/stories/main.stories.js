@@ -8,6 +8,7 @@ import button from './elements/button'
 import typography from './elements/typography'
 
 import grid from './layout/grid'
+import navbar from './layout/navbar'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -22,3 +23,4 @@ label(elementStories)
 
 // Layout Stories
 grid(layoutStories)
+navbar(layoutStories)

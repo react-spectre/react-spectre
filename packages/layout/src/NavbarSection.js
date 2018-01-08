@@ -25,4 +25,4 @@ NavbarSection.propTypes = {
   center: PropTypes.bool
 }
 
-export default NavbarSection
+export { NavbarSection }

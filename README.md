@@ -90,7 +90,7 @@ yarn package:create -- <name-of-package>
   - **Layout**
     - [x] Flexbox Grid
     - [x] Responsive
-    - [ ] Navbar - [View issue](https://github.com/react-spectre/react-spectre/issues/3)
+    - [x] Navbar
 
   - **Components**
     - [ ] Accordions - [View issue](https://github.com/react-spectre/react-spectre/issues/4)

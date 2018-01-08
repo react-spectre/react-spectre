@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import NavbarSection from './NavbarSection'
-import NavbarBrand from './NavbarBrand'
+import { NavbarSection } from './NavbarSection'
+import { NavbarBrand } from './NavbarBrand'
 
-const NavBar = ({ children, ...props }) => {
+const Navbar = ({ children, ...props }) => {
   const { className, ...otherProps } = props
   const classNames = classnames('navbar', className)
 
@@ -15,12 +15,12 @@ const NavBar = ({ children, ...props }) => {
   )
 }
 
-NavBar.propTypes = {
+Navbar.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string
 }
 
-NavBar.Section = NavbarSection
-NavBar.Brand = NavbarBrand
+Navbar.Section = NavbarSection
+Navbar.Brand = NavbarBrand
 
-export { NavbarSection }
+export { Navbar }
