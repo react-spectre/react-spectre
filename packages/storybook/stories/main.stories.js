@@ -1,10 +1,11 @@
 import { storiesOf } from '@storybook/react'
 
-import typography from './elements/typography'
-import button from './elements/button'
-import table from './elements/table'
 import form from './elements/form'
 import icon from './elements/icon'
+import label from './elements/label'
+import table from './elements/table'
+import button from './elements/button'
+import typography from './elements/typography'
 
 import grid from './layout/grid'
 
@@ -17,6 +18,7 @@ button(elementStories)
 table(elementStories)
 form(elementStories)
 icon(elementStories)
+label(elementStories)
 
 // Layout Stories
 grid(layoutStories)
