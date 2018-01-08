@@ -104,48 +104,6 @@ It has two props `hide` and `show` which get an array of sizes.
 </Grid>
 ```
 
-
-### Navbar
-
-Navbar is a layout container that appears in the header of apps and websites.
-
-```js
-import { Navbar, NavbarBrand, NavbarSection } from '@react-spectre/layout'
-```
-
-```jsx
-<Navbar>
-    <Navbar.Section>
-        <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
-        <a href="#" className="btn btn-link">Docs</a>
-        <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
-    </Navbar.Section>
-    <Navbar.Section>
-        <div className="input-group input-inline">
-              <input className="form-input" type="text" placeholder="search"/>
-        </div>
-    </Navbar.Section>
-</Navbar>
-```
-
-> **Note:** The main component is `Navbar`, other component can be accessed through it, for example: `Navbar.Section` and `Navbar.Brand`.
-
-### NavbarSection
-
-The navbar component can include logo brand, nav links and buttons, search box or any combination of those elements. Each section with the navbar-section className will be evenly distributed in the container.
-
-The `NavbarSection` components provide a `center` props in case you want to center the elements inside the section.
-
-```jsx
-<Navbar>
-    <Navbar.Section center>
-        <Navbar.Brand>MyAwesomeBrand</Navbar.Brand>
-        <a href="#" className="btn btn-link">Docs</a>
-        <a href="https://github.com/picturepan2/spectre" className="btn btn-link">GitHub</a>
-    </Navbar.Section>
-</Navbar>
-```
-
 <div align=center>
 <br><br><br>
 

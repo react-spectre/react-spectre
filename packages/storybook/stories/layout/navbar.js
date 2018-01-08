@@ -1,27 +1,27 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Navbar } from '@react-spectre/layout'
+import { Navbar } from '@react-spectre/navbar'
 
 export default stories => {
   stories.add(
     'Navbar',
     withInfo(`
-      React components for Spectre.css's flexbox grid system.
+      React components for Spectre.css's navigation bar.
 
       ### Installation
 
       ~~~shell
-      npm install @react-spectre/layout --save
+      npm install @react-spectre/navbar --save
       ~~~
 
       ### Usage
 
       ~~~js
-      import { Navbar, NavbarBrand, NavbarSection } from '@react-spectre/layout'
+      import { Navbar, Brand, Section } from '@react-spectre/navbar'
       ~~~
 
-      **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/layout)**
+      **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/navbar)**
     `)(() => (
       <div style={{ padding: 20 }}>
         <Navbar>

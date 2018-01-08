@@ -12,6 +12,7 @@
     "@react-spectre/icon": "^1.0.0-8",
     "@react-spectre/label": "^1.0.0-8",
     "@react-spectre/layout": "^1.0.0-8",
+    "@react-spectre/navbar": "^1.0.0-8",
     "@react-spectre/table": "^1.0.0-8",
     "@react-spectre/typography": "^1.0.0-8"
   },

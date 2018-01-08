@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 
-const NavbarSection = ({ children, ...props }) => {
+const Section = ({ children, ...props }) => {
   const { className, center, ...otherProps } = props
   const classNames = classnames(
     {
@@ -19,10 +19,10 @@ const NavbarSection = ({ children, ...props }) => {
   )
 }
 
-NavbarSection.propTypes = {
+Section.propTypes = {
   children: PropTypes.any,
   className: PropTypes.string,
   center: PropTypes.bool
 }
 
-export { NavbarSection }
+export { Section }

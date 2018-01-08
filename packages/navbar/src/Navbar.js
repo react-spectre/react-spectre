@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
-import { NavbarSection } from './NavbarSection'
-import { NavbarBrand } from './NavbarBrand'
+import { Section } from './Section'
+import { Brand } from './Brand'
 
 const Navbar = ({ children, ...props }) => {
   const { className, ...otherProps } = props
@@ -20,7 +20,7 @@ Navbar.propTypes = {
   className: PropTypes.string
 }
 
-Navbar.Section = NavbarSection
-Navbar.Brand = NavbarBrand
+Navbar.Section = Section
+Navbar.Brand = Brand
 
 export { Navbar }
