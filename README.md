@@ -18,23 +18,23 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ## Packages
 
- - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
-   - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
+  - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
 
- - [**Table** - `@react-spectre/table`](packages/table) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> (gzipped!)
-   - Components: `Table`, `Header`, `Body`, `Row`, `Heading` and `Cell`.
+  - [**Table** - `@react-spectre/table`](packages/table) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `Table`, `Header`, `Body`, `Row`, `Heading` and `Cell`.
 
- - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
-   - Components: `Button` and `Group`.
+  - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `Button` and `Group`.
 
- - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> (gzipped!)
-   - Components: FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
+  - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> (gzipped!)
+    - Components: FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
 
- - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
-   - Components: `Button` and `Group`.
+  - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `Button` and `Group`.
 
   - [**Layout** - `@react-spectre/layout`](packages/layout) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->776 B<!-- /markdown-exec --> (gzipped!)
-  - Components: `Grid`, `Row`, `Col`.
+    - Components: `Grid`, `Row`, `Col`.
 
 <br><br><br>
 
