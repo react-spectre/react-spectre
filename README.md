@@ -84,8 +84,8 @@ yarn package:create -- <name-of-package>
     - [x] Forms
     - [x] Icons
     - [x] Labels
-    - [ ] ~Labels~
-    - [ ] Media
+    - [ ] ~Code~
+    - [ ] Media - [View issue](https://github.com/react-spectre/react-spectre/issues/2)
 
   - **Layout**
     - [x] Flexbox Grid
