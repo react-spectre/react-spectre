@@ -47,7 +47,7 @@
     "build": "cross-env NODE_ENV=production rollup -c",
     "build:watch": "npm run build -- --watch",
     "eslint": "eslint . --ignore-path .gitignore",
-    "release": "npm run build && lerna publish",
+    "release": "npm run build && npm run markdown:update && lerna publish",
     "markdown:update": "markdown-exec README.md",
     "package:create": "node ./scripts/create-package"
   }
