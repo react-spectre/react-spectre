@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/label",
-  "version": "1.0.0-10",
+  "version": "1.0.0-11",
   "description": "React components for Spectre.css labels.",
   "jsnext:main": "src/index.js",
   "main": "dist/label.js",

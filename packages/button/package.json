@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/button",
-  "version": "1.0.0-10",
+  "version": "1.0.0-11",
   "description": "React components for Spectre.css's buttons.",
   "jsnext:main": "src/index.js",
   "main": "dist/button.js",
