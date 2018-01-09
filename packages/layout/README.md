@@ -107,7 +107,7 @@ It has two props `hide` and `show` which get an array of sizes.
 <div align=center>
 <br><br><br>
 
-Made with :heart: by [Angel Pi?a](https://github.com/0aps).
+Made with :heart: by [Rubens Mariuzzo](https://github.com/rmariuzzo).
 
 [MIT License](LICENSE)
 

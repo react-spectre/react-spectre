@@ -7,7 +7,7 @@
   "browser": "dist/navbar.umd.js",
   "module": "dist/navbar.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/navbar",
-  "author": "Ángel Piña <six.aps@gmail.com>",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [
     "dist",

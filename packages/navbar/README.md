@@ -65,7 +65,7 @@ The `Section` components provide a `center` props in case you want to center the
 <div align=center>
 <br><br><br>
 
-Made with :heart: by [Angel Pi?a](https://github.com/0aps).
+Made with :heart: by [Rubens Mariuzzo](https://github.com/rmariuzzo).
 
 [MIT License](LICENSE)
 
