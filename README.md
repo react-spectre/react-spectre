@@ -23,27 +23,22 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ### Elements
 
- Package | Size (min+gzip) <sup>1</sup> | Components 
- :------ | :--------------------------- | :---------
- ||
- [**Elements**](packages/elements) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/elements/dist/elements.umd.js, match:[\d|\.]+ \w+) -->3.98 kB<!-- /markdown-exec --> | **Contains all subsequent elements packages.**
- ||
- [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.umd.js, match:[\d|\.]+ \w+) -->1.67 kB<!-- /markdown-exec --> | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
- [**Table**](packages/table) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.umd.js, match:[\d|\.]+ \w+) -1.67 kBkB<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
- [**Button**](packages/button) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.umd.js, match:[\d|\.]+ \w+)1.74 kB4 kB<!-- /markdown-exec --> | `Button`, `Group`.
- [**Form**](packages/form) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.umd.js, match:[\d|\.]+ \w1.82 kB>82 kB<!-- /markdown-exec --> | `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
- [**Icon**](packages/icon) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.umd.js, match:[\d|\.]+ 1.49 kB-->49 kB<!-- /markdown-exec --> | `Icon`.
- [**Label**](packages/label) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.umd.js, match:[\d|\.]1.6 kB+) -->6 kB<!-- /markdown-exec --> | `Label`.
- [**Media**](packages/media) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.umd.js, match:[\d|\1.82 kBw+) -->82 kB<!-- /markdown-exec --> | `Image`, `Figure`, `Video`, `Container`.
-
-**Note:** <sup>1</sup> This is the size of the UMD bundle, which is the maximum size.
+ Package | Size (min+gzip) | Components 
+ :------ | :-------------- | :---------
+ [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
+ [**Table**](packages/table) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
+ [**Button**](packages/button) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> | `Button`, `Group`.
+ [**Form**](packages/form) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> | `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
+ [**Icon**](packages/icon) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> | `Icon`.
+ [**Label**](packages/label) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> | `Label`.
+ [**Media**](packages/media) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> | `Image`, `Figure`, `Video`, `Container`.
 
 ### Layout
 
  Package | Size (min+gzip) | Components 
  :------ | :-------------- | :---------
- [**Layout**](packages/layout) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.umd.js, match:[\d|\.]+ \w+) -->877 kB!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
- [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.umd.js, match:[\d|\.]+ \w+) -->659 kB!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
+ [**Layout**](packages/layout) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->800 B<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
+ [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->629 B<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
 
 <br><br><br>
 
