@@ -36,7 +36,7 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  Package | Size (min+gzip) | Components 
  :------ | :-------------- | :---------
  [**Layout**](packages/layout) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->800 B<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
- [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->603 B<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
+ [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->629 B<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
 
 <br><br><br>
 
