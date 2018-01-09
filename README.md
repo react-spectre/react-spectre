@@ -21,34 +21,22 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
 ### Elements
 
-  - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
-
-  - [**Table** - `@react-spectre/table`](packages/table) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
-
-  - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Button`, `Group`.
-
-  - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
-
-  - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Button`, `Group`.
-
-  - [**Label** - `@react-spectre/label`](packages/label) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Label`.
-
-  - [**Media** - `@react-spectre/media`](packages/media) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Image`, `Figure`, `Video`, `Container`.
+ Package | Size (min+gzip) | Components 
+ :------ | :-------------- | :---------
+ [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!) | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
+ [**Table**](packages/table)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
+ [**Button**](packages/button) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> | `Button`, `Group`.
+ [**Form**](packages/form)     | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> | `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
+ [**Icon**](packages/icon)     | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> | `Button`, `Group`.
+ [**Label**](packages/label)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> | `Label`.
+ [**Media**](packages/media)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> | `Image`, `Figure`, `Video`, `Container`.
 
 ### Layout
 
-  - [**Layout** - `@react-spectre/layout`](packages/layout) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->800 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Grid`, `Row`, `Col`.
-
-  - [**Navbar** - `@react-spectre/navbar`](packages/navbar) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->603 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Navbar`, `Section`, `Brand`.
+ Package | Size (min+gzip) | Components 
+ :------ | :-------------- | :---------
+ [**Layout**](packages/layout) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.js, match:\d+ \w+) -->800 B<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
+ [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->603 B<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
 
 <br><br><br>
 
