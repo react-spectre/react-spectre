@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/table",
-  "version": "1.0.0-8",
+  "version": "1.0.0-9",
   "description": "React components for Spectre.css's table.",
   "jsnext:main": "src/index.js",
   "main": "dist/table.js",
