@@ -44,7 +44,17 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  [**Layout**](packages/layout) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.umd.js) -->2.07 kB<!-- /markdown-exec -->** | **Contains all subsequent layout packages.**
  ||
  [**Grid**](packages/grid) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/grid/dist/grid.umd.js) -->1.77 kB<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
- [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.umd.js) -->1.59 kB<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
+ [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/navbar/dist/navbar.umd.js) -->1.59 kB<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
+
+
+### Components
+
+ Package | Size (min+gzip) <sup>1</sup> | Components
+ :------ | :--------------------------- | :---------
+ ||
+ [**Components**](packages/components) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/components/dist/components.umd.js) -->1.12 kB<!-- /markdown-exec -->** | **Contains all subsequent components packages.**
+ ||
+ [**Accordion**](packages/accordion) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/accordion/dist/accordion.umd.js) -->1.01 kB<!-- /markdown-exec --> | `Accordion`, `Header`, `Body`.
 
 **Note:** <sup>1</sup> the gzipped size of the UMD build.
 

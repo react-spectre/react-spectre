@@ -1,1 +1,1 @@
-export { Accordion } from '@react-spectre/accordion'
+export { Accordion, Header, Body } from '@react-spectre/accordion'
