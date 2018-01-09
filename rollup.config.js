@@ -2,7 +2,9 @@ import path from 'path'
 import glob from 'glob'
 import babel from 'rollup-plugin-babel'
 import uglify from 'rollup-plugin-uglify'
+import replace from 'rollup-plugin-replace'
 import resolve from 'rollup-plugin-node-resolve'
+import commonjs from 'rollup-plugin-commonjs'
 import { minify } from 'uglify-es'
 import { capitalize, get } from 'lodash'
 
@@ -22,7 +24,7 @@ export default pkgs
     const input = path.join(dirpath, './src/index.js')
     const name = path.basename(path.dirname(dirpath))
 
-    return [
+    const configs = [
       {
         input,
         output: [
@@ -33,14 +35,27 @@ export default pkgs
             format: 'umd',
             sourcemap: true,
             globals: {
-              react: 'React',
-              'prop-types': 'PropTypes',
-              classnames: 'classnames'
+              react: 'React'
             }
           }
         ],
-        external: ['react', 'prop-types', 'classnames'],
-        plugins: [babel(), resolve(), uglify({}, minify)]
+        external: ['react'],
+        plugins: [
+          babel({
+            exclude: ['node_modules/**', 'packages/**/node_modules/**']
+          }),
+          resolve({
+            customResolveOptions: {
+              moduleDirectory: ['node_modules']
+            }
+          }),
+          commonjs({
+            include: /node_modules/
+          }),
+          replace({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+          })
+        ]
       },
       {
         input,
@@ -70,8 +85,16 @@ export default pkgs
           '@react-spectre/label',
           '@react-spectre/media'
         ],
-        plugins: [babel(), uglify({}, minify)]
+        plugins: [babel()]
       }
     ]
+
+    if (process.env.NODE_ENV === 'production') {
+      configs.forEach(config => {
+        config.plugins.push(uglify({}, minify))
+      })
+    }
+
+    return configs
   })
   .reduce((p, c) => p.concat(c))
