@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/grid",
-  "version": "1.0.0-11",
+  "version": "1.0.0-12",
   "description": "React components for Spectre.css's flexbox grid system.",
   "jsnext:main": "src/index.js",
   "main": "dist/grid.js",

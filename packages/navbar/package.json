@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/navbar",
-  "version": "1.0.0-11",
+  "version": "1.0.0-12",
   "description": "React components for Spectre.css's navigation bar.",
   "jsnext:main": "src/index.js",
   "main": "dist/navbar.js",
@@ -14,7 +14,7 @@
     "src"
   ],
   "dependencies": {
-    "@react-spectre/label": "^1.0.0-11",
+    "@react-spectre/label": "^1.0.0-12",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },
