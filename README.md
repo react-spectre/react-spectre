@@ -25,6 +25,9 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
  Package | Size (min+gzip) <sup>1</sup> | Components 
  :------ | :--------------------------- | :---------
+ ||
+ [**Elements**](packages/elements) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/elements/dist/elements.umd.js) -->3.98 kB<!-- /markdown-exec -->** | **Contains all subsequent elements packages.**
+ ||
  [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.umd.js) -->1.67 kB<!-- /markdown-exec --> | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
  [**Table**](packages/table) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.umd.js) -->1.67 kB<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
  [**Button**](packages/button) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.umd.js) -->1.74 kB<!-- /markdown-exec --> | `Button`, `Group`.
