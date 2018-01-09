@@ -13,15 +13,15 @@
     "dist",
     "src"
   ],
-  "devDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
