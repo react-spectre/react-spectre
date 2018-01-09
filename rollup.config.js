@@ -85,7 +85,8 @@ export default pkgs
           '@react-spectre/label',
           '@react-spectre/media',
           '@react-spectre/grid',
-          '@react-spectre/navbar'
+          '@react-spectre/navbar',
+          '@react-spectre/accordion'
         ],
         plugins: [babel()]
       }
