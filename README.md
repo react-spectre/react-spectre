@@ -22,22 +22,25 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 ### Elements
 
   - [**Typography** - `@react-spectre/typography`](packages/typography) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6` and `Label`.
+    - Components: `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
 
   - [**Table** - `@react-spectre/table`](packages/table) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Table`, `Header`, `Body`, `Row`, `Heading` and `Cell`.
+    - Components: `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
 
   - [**Button** - `@react-spectre/button`](packages/button) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Button` and `Group`.
+    - Components: `Button`, `Group`.
 
   - [**Form** - `@react-spectre/form`](packages/form) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> (gzipped!)
-    - Components: FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox` and `Switch`.
+    - Components: FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
 
   - [**Icon** - `@react-spectre/icon`](packages/icon) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> (gzipped!)
-    - Components: `Button` and `Group`.
+    - Components: `Button`, `Group`.
 
   - [**Label** - `@react-spectre/label`](packages/label) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> (gzipped!)
     - Components: `Label`.
+
+  - [**Media** - `@react-spectre/media`](packages/media) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> (gzipped!)
+    - Components: `Image`, `Figure`, `Video`, `Container`.
 
 ### Layout
 
@@ -46,7 +49,6 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
   - [**Navbar** - `@react-spectre/navbar`](packages/navbar) - <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.js, match:\d+ \w+) -->603 B<!-- /markdown-exec --> (gzipped!)
     - Components: `Navbar`, `Section`, `Brand`.
-
 
 <br><br><br>
 
@@ -89,7 +91,7 @@ yarn package:create -- <name-of-package>
     - [x] Icons
     - [x] Labels
     - [ ] ~Code~
-    - [ ] Media - [View issue](https://github.com/react-spectre/react-spectre/issues/2)
+    - [x] Media
 
   - **Layout**
     - [x] Flexbox Grid

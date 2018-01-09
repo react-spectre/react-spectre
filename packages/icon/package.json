@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/icon",
-  "version": "1.0.0-8",
+  "version": "1.0.0-9",
   "description": "React components for Spectre.css icons.",
   "jsnext:main": "src/index.js",
   "main": "dist/icon.js",
