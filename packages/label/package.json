@@ -9,6 +9,10 @@
   "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/label",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },

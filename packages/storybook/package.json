@@ -6,6 +6,10 @@
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/storybook",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
   "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "@react-spectre/button": "^1.0.0-9",
     "@react-spectre/form": "^1.0.0-9",
