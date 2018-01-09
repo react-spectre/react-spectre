@@ -25,13 +25,13 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
  Package | Size (min+gzip) | Components 
  :------ | :-------------- | :---------
- [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> (gzipped!) | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
- [**Table**](packages/table)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
+ [**Typography**](packages/typography) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/typography/dist/typography.js, match:\d+ \w+) -->714 B<!-- /markdown-exec --> | `H1`, `H2`, `H3`, `H4`, `H5`, `H6`, `Label`.
+ [**Table**](packages/table) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/table/dist/table.js, match:\d+ \w+) -->719 B<!-- /markdown-exec --> | `Table`, `Header`, `Body`, `Row`, `Heading`, `Cell`.
  [**Button**](packages/button) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/button/dist/button.js, match:\d+ \w+) -->777 B<!-- /markdown-exec --> | `Button`, `Group`.
- [**Form**](packages/form)     | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> | `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
- [**Icon**](packages/icon)     | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> | `Icon`.
- [**Label**](packages/label)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> | `Label`.
- [**Media**](packages/media)   | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> | `Image`, `Figure`, `Video`, `Container`.
+ [**Form**](packages/form) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/form/dist/form.js, match:\d+ \w+) -->879 B<!-- /markdown-exec --> | `FormGroup`, `Input`, `TextArea`, `Select`, `Radio`, `CheckBox`, `Switch`.
+ [**Icon**](packages/icon) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/icon/dist/icon.js, match:\d+ \w+) -->520 B<!-- /markdown-exec --> | `Icon`.
+ [**Label**](packages/label) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/label/dist/label.js, match:\d+ \w+) -->624 B<!-- /markdown-exec --> | `Label`.
+ [**Media**](packages/media) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/media/dist/media.js, match:\d+ \w+) -->871 B<!-- /markdown-exec --> | `Image`, `Figure`, `Video`, `Container`.
 
 ### Layout
 
