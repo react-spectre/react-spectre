@@ -2049,8 +2049,8 @@ commander@2.12.x, commander@^2.12.2, commander@^2.9.0, commander@~2.12.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
 
 common-tags@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.6.0.tgz#788e4bcc582f16993e5b2c92f76b1ccb80731537"
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.7.0.tgz#2457c9d6c64f22b250c84c11c9b3f98b428f3083"
   dependencies:
     babel-runtime "^6.26.0"
 
@@ -4606,13 +4606,13 @@ map-obj@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-2.0.0.tgz#a65cd29087a92598b8791257a523e021222ac1f9"
 
-markdown-exec@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-exec/-/markdown-exec-1.0.0.tgz#922800f71d2fc1325ecdf7633babc728af2d37d2"
+markdown-exec@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/markdown-exec/-/markdown-exec-1.0.2.tgz#4ed895e707d8e521e026b4392d2d88cba41ae20c"
   dependencies:
     fs-extra "^5.0.0"
     meow "^4.0.0"
-    xml-comment-api "^1.0.0"
+    xml-comment-api "^1.0.1"
 
 markdown-loader@^2.0.1:
   version "2.0.2"
@@ -7338,9 +7338,9 @@ xml-char-classes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/xml-char-classes/-/xml-char-classes-1.0.0.tgz#64657848a20ffc5df583a42ad8a277b4512bbc4d"
 
-xml-comment-api@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/xml-comment-api/-/xml-comment-api-1.0.0.tgz#0fe201595d497cbc748e4e7c48a0f8ab9dc257c8"
+xml-comment-api@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/xml-comment-api/-/xml-comment-api-1.0.1.tgz#38d3e05ad7dfa42c68fcb51bff19b1d08b07cf06"
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.1"
