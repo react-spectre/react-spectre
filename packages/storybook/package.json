@@ -13,9 +13,9 @@
   "dependencies": {
     "@react-spectre/button": "^1.0.0-10",
     "@react-spectre/form": "^1.0.0-10",
+    "@react-spectre/grid": "^1.0.0-10",
     "@react-spectre/icon": "^1.0.0-10",
     "@react-spectre/label": "^1.0.0-10",
-    "@react-spectre/layout": "^1.0.0-10",
     "@react-spectre/media": "^1.0.0-10",
     "@react-spectre/table": "^1.0.0-10",
     "@react-spectre/typography": "^1.0.0-10"

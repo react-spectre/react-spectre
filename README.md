@@ -40,7 +40,7 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
 
  Package | Size (min+gzip) <sup>1</sup> | Components 
  :------ | :--------------------------- | :---------
- [**Layout**](packages/layout) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/layout/dist/layout.umd.js) -->1.77 kB<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
+ [**Grid**](packages/grid) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/grid/dist/grid.umd.js) -->1.77 kB<!-- /markdown-exec --> | `Grid`, `Row`, `Col`.
  [**Navbar**](packages/navbar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/Navbar/dist/Navbar.umd.js) -->1.59 kB<!-- /markdown-exec --> | `Navbar`, `Section`, `Brand`.
 
 **Note:** <sup>1</sup> the gzipped size of the UMD build.

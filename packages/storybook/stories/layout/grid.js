@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Grid, Col, Row } from '@react-spectre/layout'
+import { Grid, Col, Row } from '@react-spectre/grid'
 
 export default stories => {
   stories.add(
@@ -12,16 +12,16 @@ export default stories => {
       ### Installation
 
       ~~~shell
-      npm install @react-spectre/layout --save
+      npm install @react-spectre/grid --save
       ~~~
 
       ### Usage
 
       ~~~js
-      import { Grid, Row, Col } from '@react-spectre/layout'
+      import { Grid, Row, Col } from '@react-spectre/grid'
       ~~~
 
-      **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/layout)**
+      **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/grid)**
     `)(() => (
       <div style={{ padding: 20 }}>
         <Grid>
