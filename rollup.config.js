@@ -83,7 +83,9 @@ export default pkgs
           '@react-spectre/form',
           '@react-spectre/icon',
           '@react-spectre/label',
-          '@react-spectre/media'
+          '@react-spectre/media',
+          '@react-spectre/grid',
+          '@react-spectre/navbar'
         ],
         plugins: [babel()]
       }
