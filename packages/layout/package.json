@@ -1,0 +1,23 @@
+{
+  "name": "@react-spectre/layout",
+  "version": "1.0.0",
+  "description": "React components for Spectre.css layout",
+  "jsnext:main": "src/index.js",
+  "main": "dist/layout.js",
+  "browser": "dist/layout.umd.js",
+  "module": "dist/layout.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/layout",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "@react-spectre/grid": "^1.0.0-11",
+    "@react-spectre/navbar": "^1.0.0-11"
+  }
+}
