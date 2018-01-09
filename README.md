@@ -4,6 +4,8 @@
 # react-spectre
 React components for Spectre.css - a Lightweight, Responsive and Modern CSS Framework
 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+
 <br><br><br>
 </div>
 
