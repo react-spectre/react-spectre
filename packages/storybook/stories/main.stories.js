@@ -11,8 +11,11 @@ import typography from './elements/typography'
 import grid from './layout/grid'
 import navbar from './layout/navbar'
 
+import accordion from './components/accordion'
+
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
+const componentsStories = storiesOf('Components', module)
 
 // Elements Stories
 typography(elementStories)
@@ -26,3 +29,6 @@ media(elementStories)
 // Layout Stories
 grid(layoutStories)
 navbar(layoutStories)
+
+// Components Stories
+accordion(componentsStories)
