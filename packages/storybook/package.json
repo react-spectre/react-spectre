@@ -20,7 +20,8 @@
     "@react-spectre/table": "^1.0.0-12",
     "@react-spectre/typography": "^1.0.0-12",
     "@react-spectre/navbar": "^1.0.0-12",
-    "@react-spectre/accordion": "^1.0.0-12"
+    "@react-spectre/accordion": "^1.0.0-12",
+    "@react-spectre/autocomplete": "^1.0.0-12"
   },
   "private": true
 }
