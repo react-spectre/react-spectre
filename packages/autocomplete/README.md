@@ -26,12 +26,38 @@ npm install @react-spectre/autocomplete --save
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
 ```js
-import { Autocomplete } from '@react-spectre/autocomplete'
+import { Autocomplete, Input, Menu } from '@react-spectre/autocomplete'
 ```
 
 ```jsx
+<Autocomplete>
+  <Autocomplete.Input focus>
+    <div className="chip">
+      <img className="avatar avatar-sm" alt="Thor Odinson" />
+      Thor Odinson
+      <a href="#" className="btn btn-clear" aria-label="Close" role="button" />
+    </div>
 
+    <input className="form-input" type="text" placeholder="typing here" />
+  </Autocomplete.Input>
+  <Autocomplete.Menu>
+    <li className="menu-item">
+      <a href="#">
+        <div className="tile tile-centered">
+          <div className="tile-icon">
+            <img className="avatar avatar-sm" alt="Steve Rogers" />
+          </div>
+          <div className="tile-content">
+            Steve Rogers
+          </div>
+        </div>
+      </a>
+    </li>
+  </Autocomplete.Menu>
+</Autocomplete>
 ```
+
+> **Note:** The main component is `Autocomplete`, other component can be accessed through it, for example: `Autocomplete.Input` or `Autocomplete.Menu`.
 
 <div align=center>
 <br><br><br>
