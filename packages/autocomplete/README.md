@@ -25,6 +25,8 @@ npm install @react-spectre/autocomplete --save
 
 Autocomplete form component provides suggestions while you type. It is often used for tags and contacts input.
 
+The component does NOT include JavaScript code, you will need to implement your JS to interact with the autocomplete. Nevertheless [here's](assets/js_autocomplete.js) an example with JS.
+
 ```js
 import { Autocomplete, Input, Menu } from '@react-spectre/autocomplete'
 ```
