@@ -107,7 +107,7 @@ yarn package:create -- <name-of-package>
     - [x] Navbar
 
   - **Components**
-    - [ ] Accordions - [View issue](https://github.com/react-spectre/react-spectre/issues/4)
+    - [x] Accordions
     - [ ] Autocomplete - [View issue](https://github.com/react-spectre/react-spectre/issues/5)
     - [ ] Avatars - [View issue](https://github.com/react-spectre/react-spectre/issues/6)
     - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
