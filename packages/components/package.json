@@ -21,6 +21,7 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/accordion": "^1.0.0-12"
+    "@react-spectre/accordion": "^1.0.0-12",
+    "@react-spectre/avatar": "^1.0.0-12"
   }
 }

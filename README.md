@@ -54,7 +54,8 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  ||
  [**Components**](packages/components) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/components/dist/components.umd.js) -->1.12 kB<!-- /markdown-exec -->** | **Contains all subsequent components packages.**
  ||
- [**Accordion**](packages/accordion) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/accordion/dist/accordion.umd.js) -->1.01 kB<!-- /markdown-exec --> | `Accordion`, `Header`, `Body`.
+ [**Accordion**](packages/accordion) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/accordion/dist/accordion.umd.js) -->1.11 kB<!-- /markdown-exec --> | `Accordion`, `Header`, `Body`.
+ [**Avatar**](packages/avatar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/avatar/dist/avatar.umd.js) -->1.01 kB<!-- /markdown-exec --> | `Avatar`, `Icon`, `Presence`.
 
 **Note:** <sup>1</sup> the gzipped size of the UMD build.
 
@@ -109,7 +110,7 @@ yarn package:create -- <name-of-package>
   - **Components**
     - [x] Accordions
     - [ ] Autocomplete - [View issue](https://github.com/react-spectre/react-spectre/issues/5)
-    - [ ] Avatars - [View issue](https://github.com/react-spectre/react-spectre/issues/6)
+    - [x] Avatars
     - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
     - [ ] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
     - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
