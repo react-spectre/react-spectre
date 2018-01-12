@@ -28,7 +28,7 @@ There is 1 single component used for badges: `Badge`.
 import { Badge } from '@react-spectre/badge'
 ```
 
-Badges are used as wrapper components with the label property (this property is optional, and the badge will appear empty). You can use badge for span, buttons and figures.
+Badges are used as wrapper components with the label property (this property is optional, badge will appear empty if the label is not specified). You can use badge for span, buttons and figures.
 
 ```jsx
 <Badge label={1}>
