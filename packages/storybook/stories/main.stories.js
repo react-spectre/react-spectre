@@ -11,9 +11,10 @@ import typography from './elements/typography'
 import grid from './layout/grid'
 import navbar from './layout/navbar'
 
+import bar from './components/bar'
+import avatar from './components/avatar'
 import accordion from './components/accordion'
 import autocomplete from './components/autocomplete'
-import avatar from './components/avatar'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -36,3 +37,4 @@ navbar(layoutStories)
 accordion(componentsStories)
 autocomplete(componentsStories)
 avatar(componentsStories)
+bar(componentsStories)

@@ -88,9 +88,10 @@ export default pkgs
           '@react-spectre/navbar',
           '@react-spectre/accordion',
           '@react-spectre/autocomplete',
-          '@react-spectre/avatar'
+          '@react-spectre/avatar',
+          '@react-spectre/bar'
         ],
-        plugins: [babel()]
+        plugins: [babel(), resolve()]
       }
     ]
 
