@@ -24,22 +24,22 @@ npm install @react-spectre/step --save
 ## Usage
 
 ```js
-import { Step, StepItem } from '@react-spectre/step'
+import { Step } from '@react-spectre/step'
 ```
 
 ```jsx
 <Step>
-  <StepItem>
+  <Step.Item>
     <a href="#" className="tooltip" data-tooltip="Step 1">
       Step 1
     </a>
-  <StepItem>
+  <Step.Item>
   // Pass the 'active' property in order to set this step as the current one selected.
-  <StepItem active>
+  <Step.Item active>
     <a href="#" className="tooltip" data-tooltip="Step 2">
       Step 2
     </a>
-  <StepItem>
+  <Step.Item>
 </Step>
 ```
 

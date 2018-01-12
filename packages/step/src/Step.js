@@ -33,4 +33,4 @@ Item.propTypes = {
 
 Step.Item = Item
 
-export { Step }
+export { Step, Item }
