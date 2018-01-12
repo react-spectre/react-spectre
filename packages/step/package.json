@@ -8,8 +8,7 @@
   "module": "dist/step.es.js",
   "repository":
     "https://github.com/react-spectre/react-spectre/tree/master/packages/step",
-  "author":
-    "Cesar Contreras <ccdl15c@gmail.com> (http://github.com/ccontreras)",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": ["dist", "src"],
   "dependencies": {

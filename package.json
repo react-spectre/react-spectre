@@ -1,8 +1,7 @@
 {
   "name": "react-spectre",
   "version": "0.0.1",
-  "description":
-    "React components for Spectre.css - a Lightweight, Responsive and Modern CSS Framework.",
+  "description": "React components for Spectre.css - a Lightweight, Responsive and Modern CSS Framework.",
   "main": "index.js",
   "repository": "git@github.com:react-spectre/react-spectre.git",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
