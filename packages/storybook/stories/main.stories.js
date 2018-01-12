@@ -15,6 +15,7 @@ import bar from './components/bar'
 import avatar from './components/avatar'
 import accordion from './components/accordion'
 import autocomplete from './components/autocomplete'
+import step from './components/step'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -38,3 +39,4 @@ accordion(componentsStories)
 autocomplete(componentsStories)
 avatar(componentsStories)
 bar(componentsStories)
+step(componentsStories)
