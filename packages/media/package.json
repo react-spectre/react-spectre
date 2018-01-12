@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/media",
-  "version": "1.0.0-13",
+  "version": "1.0.0-14",
   "description": "React components for Spectre.css media elements.",
   "jsnext:main": "src/index.js",
   "main": "dist/media.js",

@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/elements",
-  "version": "1.0.0-13",
+  "version": "1.0.0-14",
   "description": "React components for Spectre.css elements.",
   "jsnext:main": "src/index.js",
   "main": "dist/elements.js",
@@ -21,12 +21,12 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/button": "^1.0.0-13",
-    "@react-spectre/form": "^1.0.0-13",
-    "@react-spectre/icon": "^1.0.0-13",
-    "@react-spectre/label": "^1.0.0-13",
-    "@react-spectre/media": "^1.0.0-13",
-    "@react-spectre/table": "^1.0.0-13",
-    "@react-spectre/typography": "^1.0.0-13"
+    "@react-spectre/button": "^1.0.0-14",
+    "@react-spectre/form": "^1.0.0-14",
+    "@react-spectre/icon": "^1.0.0-14",
+    "@react-spectre/label": "^1.0.0-14",
+    "@react-spectre/media": "^1.0.0-14",
+    "@react-spectre/table": "^1.0.0-14",
+    "@react-spectre/typography": "^1.0.0-14"
   }
 }

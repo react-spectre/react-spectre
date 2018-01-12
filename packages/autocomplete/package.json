@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/autocomplete",
-  "version": "1.0.0-12",
+  "version": "1.0.0-14",
   "description": "React components for Spectre.css autocomplete element.",
   "jsnext:main": "src/index.js",
   "main": "dist/autocomplete.js",

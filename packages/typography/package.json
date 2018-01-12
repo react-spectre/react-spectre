@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/typography",
-  "version": "1.0.0-13",
+  "version": "1.0.0-14",
   "description": "React components for Spectre.css's typography.",
   "jsnext:main": "src/index.js",
   "main": "dist/typography.js",
