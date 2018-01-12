@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/avatar",
-  "version": "1.0.0-14",
+  "version": "1.0.0-15",
   "description": "React components for Spectre.css avatar element.",
   "jsnext:main": "src/index.js",
   "main": "dist/avatar.js",
