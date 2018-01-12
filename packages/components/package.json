@@ -23,6 +23,7 @@
   "dependencies": {
     "@react-spectre/accordion": "^1.0.0-14",
     "@react-spectre/autocomplete": "^1.0.0-14",
-    "@react-spectre/avatar": "^1.0.0-14"
+    "@react-spectre/avatar": "^1.0.0-14",
+    "@react-spectre/bar": "^1.0.0-14"
   }
 }
