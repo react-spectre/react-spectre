@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/storybook",
-  "version": "1.0.0-12",
+  "version": "1.0.0-13",
   "description": "Stories for React Spectre.",
   "main": "index.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/storybook",
@@ -11,17 +11,18 @@
     "src"
   ],
   "dependencies": {
-    "@react-spectre/button": "^1.0.0-12",
-    "@react-spectre/form": "^1.0.0-12",
-    "@react-spectre/grid": "^1.0.0-12",
-    "@react-spectre/icon": "^1.0.0-12",
-    "@react-spectre/label": "^1.0.0-12",
-    "@react-spectre/media": "^1.0.0-12",
-    "@react-spectre/table": "^1.0.0-12",
-    "@react-spectre/typography": "^1.0.0-12",
-    "@react-spectre/navbar": "^1.0.0-12",
-    "@react-spectre/accordion": "^1.0.0-12",
-    "@react-spectre/autocomplete": "^1.0.0-12"
+    "@react-spectre/accordion": "^1.0.0-13",
+    "@react-spectre/autocomplete": "^1.0.0-12",
+    "@react-spectre/avatar": "^1.0.0-13",
+    "@react-spectre/button": "^1.0.0-13",
+    "@react-spectre/form": "^1.0.0-13",
+    "@react-spectre/grid": "^1.0.0-13",
+    "@react-spectre/icon": "^1.0.0-13",
+    "@react-spectre/label": "^1.0.0-13",
+    "@react-spectre/media": "^1.0.0-13",
+    "@react-spectre/navbar": "^1.0.0-13",
+    "@react-spectre/table": "^1.0.0-13",
+    "@react-spectre/typography": "^1.0.0-13"
   },
   "private": true
 }

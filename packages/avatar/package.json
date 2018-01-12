@@ -1,12 +1,12 @@
 {
-  "name": "@react-spectre/label",
+  "name": "@react-spectre/avatar",
   "version": "1.0.0-13",
-  "description": "React components for Spectre.css labels.",
+  "description": "React components for Spectre.css avatar element.",
   "jsnext:main": "src/index.js",
-  "main": "dist/label.js",
-  "browser": "dist/label.umd.js",
-  "module": "dist/label.es.js",
-  "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/label",
+  "main": "dist/avatar.js",
+  "browser": "dist/avatar.umd.js",
+  "module": "dist/avatar.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/avatar",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [

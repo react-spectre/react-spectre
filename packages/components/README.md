@@ -25,6 +25,7 @@ This package groups 20 React Spectre packages, refers to them for usage.
 
   - [**Accordion**](packages/accordion)
   - [**Autocomplete**](packages/autocomplete)
+  - [**Avatar**](packages/avatar)
 
 <div align=center>
 <br><br><br>

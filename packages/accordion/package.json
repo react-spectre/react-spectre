@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/accordion",
-  "version": "1.0.0-12",
+  "version": "1.0.0-13",
   "description": "React components for Spectre.css accordion element.",
   "jsnext:main": "src/index.js",
   "main": "dist/accordion.js",
