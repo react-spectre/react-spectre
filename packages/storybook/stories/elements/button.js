@@ -30,7 +30,8 @@ export default stories => {
         <Button link>Link Button</Button>
         <br />
         <br />
-        <Button success>Success Button</Button> <Button error>Error Button</Button>
+        <Button success>Success Button</Button>{' '}
+        <Button error>Error Button</Button>
         <br />
         <br />
         <Button small>Small Button</Button> <Button large>Large Button</Button>
@@ -39,10 +40,22 @@ export default stories => {
         <Button block>Block Button</Button>
         <br />
         <br />
-        <Button action large>A</Button> <Button action>A</Button> <Button action small>A</Button>
+        <Button action large>
+          A
+        </Button>{' '}
+        <Button action>A</Button>{' '}
+        <Button action small>
+          A
+        </Button>
         <br />
         <br />
-        <Button circle large>FAB</Button> <Button circle>FAB</Button> <Button circle small>FAB</Button>
+        <Button circle large>
+          FAB
+        </Button>{' '}
+        <Button circle>FAB</Button>{' '}
+        <Button circle small>
+          FAB
+        </Button>
         <br />
         <br />
         <Button active>Active Button</Button>
