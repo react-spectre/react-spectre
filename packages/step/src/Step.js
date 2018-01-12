@@ -10,9 +10,27 @@ const Step = ({ children, className, ...props }) => {
     </ul>
   )
 }
-
 Step.propTypes = {
-  children: PropTypes.any
+  children: PropTypes.any,
+  className: PropTypes.string
 }
+
+const Item = ({ children, className, active, ...props }) => {
+  const classNames = classnames('step-item', className, {
+    active
+  })
+  return (
+    <li className={classNames} {...props}>
+      {children}
+    </li>
+  )
+}
+Item.propTypes = {
+  children: PropTypes.any,
+  active: PropTypes.bool,
+  className: PropTypes.string
+}
+
+Step.Item = Item
 
 export { Step }

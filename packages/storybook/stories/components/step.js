@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Step, StepItem } from '@react-spectre/step'
+import { Step } from '@react-spectre/step'
 
 export default stories => {
   stories.add(
@@ -18,33 +18,33 @@ export default stories => {
       ### Usage
 
       ~~~js
-      import { Step, StepItem } from '@react-spectre/step'
+      import { Step } from '@react-spectre/step'
       ~~~
 
       **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/step)**
     `)(() => (
       <div style={{ padding: 20 }}>
         <Step>
-          <StepItem>
+          <Step.Item>
             <a href="#" className="tooltip" data-tooltip="Step 1">
               Step 1
             </a>
-          </StepItem>
-          <StepItem active>
+          </Step.Item>
+          <Step.Item active>
             <a href="#" className="tooltip" data-tooltip="Step 2">
               Step 2
             </a>
-          </StepItem>
-          <StepItem>
+          </Step.Item>
+          <Step.Item>
             <a href="#" className="tooltip" data-tooltip="Step 3">
               Step 3
             </a>
-          </StepItem>
-          <StepItem>
+          </Step.Item>
+          <Step.Item>
             <a href="#" className="tooltip" data-tooltip="Step 4">
               Step 4
             </a>
-          </StepItem>
+          </Step.Item>
         </Step>
       </div>
     ))
