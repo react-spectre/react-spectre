@@ -87,6 +87,7 @@ export default pkgs
           '@react-spectre/grid',
           '@react-spectre/navbar',
           '@react-spectre/accordion',
+          '@react-spectre/autocomplete',
           '@react-spectre/avatar'
         ],
         plugins: [babel()]
