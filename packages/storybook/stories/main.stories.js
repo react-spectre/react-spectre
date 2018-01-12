@@ -12,6 +12,7 @@ import grid from './layout/grid'
 import navbar from './layout/navbar'
 
 import accordion from './components/accordion'
+import autocomplete from './components/autocomplete'
 import avatar from './components/avatar'
 
 const elementStories = storiesOf('Elements', module)
@@ -33,4 +34,5 @@ navbar(layoutStories)
 
 // Components Stories
 accordion(componentsStories)
+autocomplete(componentsStories)
 avatar(componentsStories)

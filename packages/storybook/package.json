@@ -12,6 +12,7 @@
   ],
   "dependencies": {
     "@react-spectre/accordion": "^1.0.0-13",
+    "@react-spectre/autocomplete": "^1.0.0-12",
     "@react-spectre/avatar": "^1.0.0-13",
     "@react-spectre/button": "^1.0.0-13",
     "@react-spectre/form": "^1.0.0-13",
