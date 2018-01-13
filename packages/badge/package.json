@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/badge",
-  "version": "1.0.0-12",
+  "version": "1.0.0-16",
   "description": "React components for Spectre.css's badge elements.",
   "jsnext:main": "src/index.js",
   "main": "dist/badge.js",
