@@ -4,7 +4,7 @@
   "description": "Stories for React Spectre.",
   "main": "index.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/storybook",
-  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [
     "dist",

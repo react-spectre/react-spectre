@@ -7,7 +7,7 @@
   "browser": "dist/badge.umd.js",
   "module": "dist/badge.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/form",
-  "author": "Kenji Mukai <kensuka21@gmail.com>",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [
     "dist",

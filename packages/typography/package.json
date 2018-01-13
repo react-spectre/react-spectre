@@ -7,7 +7,7 @@
   "browser": "dist/typography.umd.js",
   "module": "dist/typography.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/typography",
-  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [
     "dist",
