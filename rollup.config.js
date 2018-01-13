@@ -89,7 +89,9 @@ export default pkgs
           '@react-spectre/accordion',
           '@react-spectre/autocomplete',
           '@react-spectre/avatar',
-          '@react-spectre/bar'
+          '@react-spectre/badge',
+          '@react-spectre/bar',
+          '@react-spectre/toast'
         ],
         plugins: [babel(), resolve()]
       }

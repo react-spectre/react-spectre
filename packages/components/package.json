@@ -24,6 +24,8 @@
     "@react-spectre/accordion": "^1.0.0-15",
     "@react-spectre/autocomplete": "^1.0.0-15",
     "@react-spectre/avatar": "^1.0.0-15",
-    "@react-spectre/bar": "^1.0.0-15"
+    "@react-spectre/badge": "^1.0.0-12",
+    "@react-spectre/bar": "^1.0.0-15",
+    "@react-spectre/toast": "^1.0.0-15"
   }
 }
