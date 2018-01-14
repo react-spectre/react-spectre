@@ -1,18 +1,23 @@
 import { storiesOf } from '@storybook/react'
 
+import typography from './elements/typography'
+import table from './elements/table'
+import button from './elements/button'
 import form from './elements/form'
 import icon from './elements/icon'
 import label from './elements/label'
 import media from './elements/media'
-import table from './elements/table'
-import button from './elements/button'
-import typography from './elements/typography'
 
 import grid from './layout/grid'
 import navbar from './layout/navbar'
 
 import accordion from './components/accordion'
+import autocomplete from './components/autocomplete'
+import avatar from './components/avatar'
 import badge from './components/badge'
+import bar from './components/bar'
+import step from './components/step'
+import toast from './components/toast'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -33,4 +38,9 @@ navbar(layoutStories)
 
 // Components Stories
 accordion(componentsStories)
+autocomplete(componentsStories)
+avatar(componentsStories)
 badge(componentsStories)
+bar(componentsStories)
+step(componentsStories)
+toast(componentsStories)

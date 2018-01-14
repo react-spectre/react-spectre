@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/layout",
-  "version": "1.0.0-12",
+  "version": "1.0.0-16",
   "description": "React components for Spectre.css layout",
   "jsnext:main": "src/index.js",
   "main": "dist/layout.js",
@@ -17,7 +17,7 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/grid": "^1.0.0-12",
-    "@react-spectre/navbar": "^1.0.0-12"
+    "@react-spectre/grid": "^1.0.0-16",
+    "@react-spectre/navbar": "^1.0.0-16"
   }
 }

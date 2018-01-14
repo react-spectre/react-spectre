@@ -62,3 +62,6 @@ dist/
 
 # Webstorm configs
 .idea
+
+# VSCode configs
+.vscode

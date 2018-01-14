@@ -29,27 +29,61 @@ export default stories => {
     `)(() => (
       <div>
         <Label style={labelStyle}>default</Label>
-        <Label style={labelStyle} primary>primary</Label>
-        <Label style={labelStyle} secondary>secondary</Label>
-        <Label style={labelStyle} success>success</Label>
-        <Label style={labelStyle} warning>warning</Label>
-        <Label style={labelStyle} error>error</Label>
+        <Label style={labelStyle} primary>
+          primary
+        </Label>
+        <Label style={labelStyle} secondary>
+          secondary
+        </Label>
+        <Label style={labelStyle} success>
+          success
+        </Label>
+        <Label style={labelStyle} warning>
+          warning
+        </Label>
+        <Label style={labelStyle} error>
+          error
+        </Label>
         <br />
         <br />
-        <Label style={labelStyle} rounded>default</Label>
-        <Label style={labelStyle} rounded primary>primary</Label>
-        <Label style={labelStyle} rounded secondary>secondary</Label>
-        <Label style={labelStyle} rounded success>success</Label>
-        <Label style={labelStyle} rounded warning>warning</Label>
-        <Label style={labelStyle} rounded error>error</Label>
+        <Label style={labelStyle} rounded>
+          default
+        </Label>
+        <Label style={labelStyle} rounded primary>
+          primary
+        </Label>
+        <Label style={labelStyle} rounded secondary>
+          secondary
+        </Label>
+        <Label style={labelStyle} rounded success>
+          success
+        </Label>
+        <Label style={labelStyle} rounded warning>
+          warning
+        </Label>
+        <Label style={labelStyle} rounded error>
+          error
+        </Label>
         <br />
         <br />
-        <Label style={labelStyle} small>default</Label>
-        <Label style={labelStyle} small primary>primary</Label>
-        <Label style={labelStyle} small secondary>secondary</Label>
-        <Label style={labelStyle} small success>success</Label>
-        <Label style={labelStyle} small warning>warning</Label>
-        <Label style={labelStyle} small error>error</Label>
+        <Label style={labelStyle} small>
+          default
+        </Label>
+        <Label style={labelStyle} small primary>
+          primary
+        </Label>
+        <Label style={labelStyle} small secondary>
+          secondary
+        </Label>
+        <Label style={labelStyle} small success>
+          success
+        </Label>
+        <Label style={labelStyle} small warning>
+          warning
+        </Label>
+        <Label style={labelStyle} small error>
+          error
+        </Label>
       </div>
     ))
   )

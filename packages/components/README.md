@@ -24,6 +24,9 @@ npm install @react-spectre/components --save
 This package groups 20 React Spectre packages, refers to them for usage.
 
   - [**Accordion**](packages/accordion)
+  - [**Autocomplete**](packages/autocomplete)
+  - [**Avatar**](packages/avatar)
+  - [**Bar**](packages/bar)
 
 <div align=center>
 <br><br><br>

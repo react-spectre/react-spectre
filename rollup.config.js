@@ -86,9 +86,14 @@ export default pkgs
           '@react-spectre/media',
           '@react-spectre/grid',
           '@react-spectre/navbar',
-          '@react-spectre/accordion'
+          '@react-spectre/accordion',
+          '@react-spectre/autocomplete',
+          '@react-spectre/avatar',
+          '@react-spectre/badge',
+          '@react-spectre/bar',
+          '@react-spectre/toast'
         ],
-        plugins: [babel()]
+        plugins: [babel(), resolve()]
       }
     ]
 
