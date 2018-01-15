@@ -116,8 +116,8 @@ yarn package:create -- <name-of-package>
     - [x] Accordions
     - [x] Autocomplete
     - [x] Avatars
-    - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
-    - [ ] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
+    - [x] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
+    - [x] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
     - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
     - [x] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
@@ -131,7 +131,7 @@ yarn package:create -- <name-of-package>
     - [ ] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
     - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
-    - [ ] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
+    - [x] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
     - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
 
   - **Utilities**:
