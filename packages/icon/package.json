@@ -1,13 +1,13 @@
 {
   "name": "@react-spectre/icon",
-  "version": "1.0.0-15",
+  "version": "1.0.0-16",
   "description": "React components for Spectre.css icons.",
   "jsnext:main": "src/index.js",
   "main": "dist/icon.js",
   "browser": "dist/icon.umd.js",
   "module": "dist/icon.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/icon",
-  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
   "files": [
     "dist",

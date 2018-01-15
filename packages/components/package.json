@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/components",
-  "version": "1.0.0-15",
+  "version": "1.0.0-16",
   "description": "React components for Spectre.css components.",
   "jsnext:main": "src/index.js",
   "main": "dist/components.js",
@@ -21,9 +21,11 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/accordion": "^1.0.0-15",
-    "@react-spectre/autocomplete": "^1.0.0-15",
-    "@react-spectre/avatar": "^1.0.0-15",
-    "@react-spectre/bar": "^1.0.0-15"
+    "@react-spectre/accordion": "^1.0.0-16",
+    "@react-spectre/autocomplete": "^1.0.0-16",
+    "@react-spectre/avatar": "^1.0.0-16",
+    "@react-spectre/badge": "^1.0.0-16",
+    "@react-spectre/bar": "^1.0.0-16",
+    "@react-spectre/toast": "^1.0.0-16"
   }
 }

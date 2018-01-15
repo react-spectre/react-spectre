@@ -53,12 +53,14 @@ React components for Spectre.css - a Lightweight, Responsive and Modern CSS Fram
  Package | Size (min+gzip) <sup>1</sup> | Components
  :------ | :--------------------------- | :---------
  ||
- [**Components**](packages/components) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/components/dist/components.umd.js) -->2.57 kB<!-- /markdown-exec -->** | **Contains all subsequent components packages.**
+ [**Components**](packages/components) | **<!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/components/dist/components.umd.js) -->3.11 kB<!-- /markdown-exec -->** | **Contains all subsequent components packages.**
  ||
  [**Accordion**](packages/accordion) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/accordion/dist/accordion.umd.js) -->1.6 kB<!-- /markdown-exec --> | `Accordion`, `Header`, `Body`.
  [**Autocomplete**](packages/autocomplete) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/autocomplete/dist/autocomplete.umd.js) -->1.58 kB<!-- /markdown-exec --> | `Autocomplete`, `Input`, `Menu`.
  [**Avatar**](packages/avatar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/avatar/dist/avatar.umd.js) -->1.75 kB<!-- /markdown-exec --> | `Avatar`, `Icon`, `Presence`.
+ [**Badge**](packages/badge) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/badge/dist/badge.umd.js) -->1.4 kB<!-- /markdown-exec --> | `Badge`.
  [**Bar**](packages/bar) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/bar/dist/bar.umd.js) -->1.75 kB<!-- /markdown-exec --> | `Bar`, `Slider`.
+ [**Toast**](packages/toast) | <!-- markdown-exec(cmd:./node_modules/.bin/gzip-size ./packages/toast/dist/toast.umd.js) -->1.62 kB<!-- /markdown-exec --> | `Toast`.
 
 **Note:** <sup>1</sup> the gzipped size of the UMD build.
 

@@ -1,6 +1,6 @@
 {
   "name": "@react-spectre/bar",
-  "version": "1.0.0-15",
+  "version": "1.0.0-16",
   "description": "React components for Spectre.css bar.",
   "jsnext:main": "src/index.js",
   "main": "dist/bar.js",
