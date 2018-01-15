@@ -32,10 +32,8 @@ export default stories => {
               <Card.Image src="https://picturepan2.github.io/spectre/img/osx-el-capitan.jpg" />
 
               <Card.Header>
-                <Card.Header.Title h2>Microsoft</Card.Header.Title>
-                <Card.Header.SubTitle>
-                  Software and hardware
-                </Card.Header.SubTitle>
+                <Card.Title h2>Microsoft</Card.Title>
+                <Card.SubTitle>Software and hardware</Card.SubTitle>
               </Card.Header>
 
               <Card.Body>

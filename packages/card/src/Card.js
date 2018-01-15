@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from './Header'
+import { Header, Title, SubTitle } from './Header'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import { Body } from './Body'
@@ -23,6 +23,8 @@ Card.propTypes = {
 }
 
 Card.Header = Header
+Card.Title = Title
+Card.SubTitle = SubTitle
 Card.Body = Body
 Card.Image = Image
 Card.Footer = Footer
