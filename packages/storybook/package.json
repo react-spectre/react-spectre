@@ -24,6 +24,7 @@
     "@react-spectre/media": "^1.0.0-16",
     "@react-spectre/navbar": "^1.0.0-16",
     "@react-spectre/step": "^1.0.0-16",
+    "@react-spectre/tab": "^1.0.0-16",
     "@react-spectre/table": "^1.0.0-16",
     "@react-spectre/toast": "^1.0.0-16",
     "@react-spectre/typography": "^1.0.0-16"

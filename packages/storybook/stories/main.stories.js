@@ -18,6 +18,7 @@ import badge from './components/badge'
 import bar from './components/bar'
 import step from './components/step'
 import toast from './components/toast'
+import tab from './components/tab'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -44,3 +45,4 @@ badge(componentsStories)
 bar(componentsStories)
 step(componentsStories)
 toast(componentsStories)
+tab(componentsStories)
