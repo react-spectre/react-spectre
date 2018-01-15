@@ -119,7 +119,7 @@ yarn package:create -- <name-of-package>
     - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
     - [ ] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
     - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
-    - [ ] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
+    - [x] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
     - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
     - [ ] Menus - [View issue](https://github.com/react-spectre/react-spectre/issues/13)

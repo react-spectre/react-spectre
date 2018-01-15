@@ -26,7 +26,8 @@
     "@react-spectre/step": "^1.0.0-16",
     "@react-spectre/table": "^1.0.0-16",
     "@react-spectre/toast": "^1.0.0-16",
-    "@react-spectre/typography": "^1.0.0-16"
+    "@react-spectre/typography": "^1.0.0-16",
+    "@react-spectre/card": "^1.0.0-16"
   },
   "private": true
 }
