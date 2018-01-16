@@ -128,7 +128,7 @@ yarn package:create -- <name-of-package>
     - [ ] Pagination - [View issue](https://github.com/react-spectre/react-spectre/issues/16)
     - [ ] Panels - [View issue](https://github.com/react-spectre/react-spectre/issues/17)
     - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
-    - [ ] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
+    - [x] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
     - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
     - [x] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
