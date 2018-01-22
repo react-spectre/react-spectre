@@ -116,10 +116,10 @@ yarn package:create -- <name-of-package>
     - [x] Accordions
     - [x] Autocomplete
     - [x] Avatars
-    - [ ] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
-    - [ ] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
+    - [x] Badges
+    - [x] Bars
     - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
-    - [ ] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
+    - [x] Cards
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
     - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
     - [ ] Menus - [View issue](https://github.com/react-spectre/react-spectre/issues/13)
@@ -128,10 +128,10 @@ yarn package:create -- <name-of-package>
     - [ ] Pagination - [View issue](https://github.com/react-spectre/react-spectre/issues/16)
     - [ ] Panels - [View issue](https://github.com/react-spectre/react-spectre/issues/17)
     - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
-    - [ ] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
+    - [x] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
     - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
-    - [ ] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
+    - [x] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
     - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
 
   - **Utilities**:
