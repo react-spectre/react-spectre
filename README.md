@@ -116,10 +116,10 @@ yarn package:create -- <name-of-package>
     - [x] Accordions
     - [x] Autocomplete
     - [x] Avatars
-    - [x] Badges - [View issue](https://github.com/react-spectre/react-spectre/issues/7)
-    - [x] Bars - [View issue](https://github.com/react-spectre/react-spectre/issues/8)
+    - [x] Badges
+    - [x] Bars
     - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
-    - [x] Cards - [View issue](https://github.com/react-spectre/react-spectre/issues/10)
+    - [x] Cards
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
     - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
     - [ ] Menus - [View issue](https://github.com/react-spectre/react-spectre/issues/13)
