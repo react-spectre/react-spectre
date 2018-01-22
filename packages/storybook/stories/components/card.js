@@ -9,7 +9,7 @@ export default stories => {
   stories.add(
     'Card',
     withInfo(`
-      React components htmlFor Spectre.css card element.
+      React components for Spectre.css card element.
 
       ### Installation
 
