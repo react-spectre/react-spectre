@@ -7,7 +7,7 @@ export default stories => {
   stories.add(
     'Avatar',
     withInfo(`
-      React components htmlFor Spectre.css avatar element.
+      React components for Spectre.css avatar element.
 
       ### Installation
 
