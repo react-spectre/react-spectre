@@ -1,8 +1,8 @@
 <div align=center>
 <img src="assets/react-spectre-logo.png" width="256" height="256">
 
-# `@react-spectre/typography`
-React components for Spectre.css's typography
+# `@react-spectre/panel`
+React components for Spectre.css's panel
 
 <br><br><br>
 </div>
@@ -10,51 +10,54 @@ React components for Spectre.css's typography
 ## Installation
 
 ```shell
-yarn add @react-spectre/typography
+yarn add @react-spectre/panel
 ```
 
 ```shell
-npm install @react-spectre/typography --save
+npm install @react-spectre/panel --save
 ```
 
 <br><br><br>
 
 ## Usage
 
-### Headings
+### Panels
 
-There are 7 components used for headings. `H1`-`H6` for headings from level 1 to 6 and `Label` to add a label inside any `H1`-`H6`.
+Panels are flexible view container with auto-expand content section.
 
 ```js
-import { H1, H2, H3, H4, H5, H6, Label } from '@react-spectre/typography'
+import { Panel } from '@react-spectre/panel'
 ```
 
-Headings can have contents by passing children components or setting the `contents` prop:
-
 ```jsx
-<H1>Viewing all users</H1>
-<H1 contents="Viewing all users" />
+<Panel>
+  <Panel.Header>
+    <Panel.Title h6>Comments</Panel.Title>
+  </Panel.Header>
+   
+  <Panel.Body>...</Panel.Body>
+
+   
+  <Panel.Footer>...</Panel.Footer>
+</Panel>
 ```
 
-A label can be added to a `Heading` using the `label` prop:
+> **Note:** The main component is `Panel`, other component can be accessed through it, for example: `Panel.Header`, `Panel.Title`, `Panel.Nav`, `Panel.Body`, `Panel.Footer`.
+
+#### Header
+
+You can set text align.
 
 ```jsx
-<H1 contents="Viewing all users" label="(185 in total)" />
+<Panel.Header center>...</Panel.Header>
+<Panel.Header right>...</Panel.Header>
+```
 
-// The following is an alternative to render the same.
-<H1 label="(185 in total)">Viewing all users</H1>
+##### Title
+You can set headings.
 
-// The following is another alternative to render the same.
-<H1>
-  Viewing all users
-  <H1.Label>(185 in total)</H1.Label>
-</H1>
-
-// And this one too.
-<H1>
-  Viewing all users
-  <H1.Label contents="(185 in total)" />
-</H1>
+```jsx
+<Panel.Title h6>Comments</Panel.Title>
 ```
 
 <div align=center>

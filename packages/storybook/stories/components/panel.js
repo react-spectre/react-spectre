@@ -157,19 +157,52 @@ export default stories => {
                   <Panel.Title h6>Comments</Panel.Title>
                 </Panel.Header>
 
-                <Panel.Body />
+                <Panel.Nav>
+                  <ul className="tab tab-block">
+                    <li className="tab-item active">
+                      <a href="#panels">Profile</a>
+                    </li>
+                    <li className="tab-item">
+                      <a href="#panels">Files</a>
+                    </li>
+                    <li className="tab-item">
+                      <a href="#panels">Tasks</a>
+                    </li>
+                  </ul>
+                </Panel.Nav>
+                <Panel.Body>
+                  <div
+                    style={{ margin: '.75rem 0' }}
+                    className="tile tile-centered"
+                  >
+                    <div className="tile-content">
+                      <div className="tile-title">E-mail</div>
+                      <div className="tile-subtitle">bruce.banner@hulk.com</div>
+                    </div>
+                    <div className="tile-action">
+                      <button className="btn btn-link btn-action btn-lg">
+                        <i className="icon icon-edit" />
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    style={{ margin: '.75rem 0' }}
+                    className="tile tile-centered"
+                  >
+                    <div className="tile-content">
+                      <div className="tile-title">E-mail</div>
+                      <div className="tile-subtitle">bruce.banner@hulk.com</div>
+                    </div>
+                    <div className="tile-action">
+                      <button className="btn btn-link btn-action btn-lg">
+                        <i className="icon icon-edit" />
+                      </button>
+                    </div>
+                  </div>
+                </Panel.Body>
 
                 <Panel.Footer>
-                  <div className="input-group">
-                    <input
-                      type="text"
-                      className="form-input"
-                      placeholder="Hello"
-                    />
-                    <button className="btn btn-primary input-group-btn">
-                      Send
-                    </button>
-                  </div>
+                  <button className="btn btn-primary btn-block">Send</button>
                 </Panel.Footer>
               </Panel>
             </Col>

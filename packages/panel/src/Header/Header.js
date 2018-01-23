@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import classnames from 'classnames'
 
 const Header = props => {
-  const { children, className, center, ...otherProps } = props
+  const { children, className, center, right, ...otherProps } = props
   const classNames = classnames(
     'panel-header',
     { 'text-center': center },
+    { 'text-right': right },
     className
   )
 
@@ -20,6 +21,7 @@ const Header = props => {
 Header.propTypes = {
   children: PropTypes.node,
   center: PropTypes.string,
+  right: PropTypes.string,
   className: PropTypes.string
 }
 
