@@ -18,7 +18,7 @@ export default stories => {
       ### Usage
 
       ~~~js
-      import { Panel } from '@react-spectre/card'
+      import { Panel } from '@react-spectre/panel'
       ~~~
 
       **[Complete documentation](https://github.com/react-spectre/react-spectre/tree/master/packages/panel)**
