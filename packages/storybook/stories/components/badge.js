@@ -9,7 +9,7 @@ export default stories => {
   stories.add(
     'Badge',
     withInfo(`
-      React components htmlFor Spectre.css badge element.
+      React components for Spectre.css badge element.
 
       ### Installation
 

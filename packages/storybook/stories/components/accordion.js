@@ -7,7 +7,7 @@ export default stories => {
   stories.add(
     'Accordion',
     withInfo(`
-      React components htmlFor Spectre.css accordion element.
+      React components for Spectre.css accordion element.
 
       ### Installation
 
