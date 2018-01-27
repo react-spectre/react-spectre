@@ -50,7 +50,7 @@ import { Card } from '@react-spectre/card'
 </Card>
 ```
 
-> **Note:** The main component is `Card`, other component can be accessed through it, for example: `Card.Header`, `Card.Body`, `Card.Footer`.
+> **Note:** The main component is `Card`, other component can be accessed through it, for example: `Card.Header`, `Card.Title`, `Card.Body`, `Card.Footer`.
 
 <div align=center>
 <br><br><br>

@@ -7,7 +7,7 @@ export default stories => {
   stories.add(
     'Autocomplete',
     withInfo(`
-      React components htmlFor Spectre.css autocomplete element.
+      React components for Spectre.css autocomplete element.
 
       ### Installation
 

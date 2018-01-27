@@ -126,12 +126,12 @@ yarn package:create -- <name-of-package>
     - [ ] Modals - [View issue](https://github.com/react-spectre/react-spectre/issues/14)
     - [ ] Navs - [View issue](https://github.com/react-spectre/react-spectre/issues/15)
     - [ ] Pagination - [View issue](https://github.com/react-spectre/react-spectre/issues/16)
-    - [ ] Panels - [View issue](https://github.com/react-spectre/react-spectre/issues/17)
+    - [x] Panels
     - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
-    - [x] Steps - [View issue](https://github.com/react-spectre/react-spectre/issues/19)
+    - [x] Steps
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
     - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
-    - [x] Toasts - [View issue](https://github.com/react-spectre/react-spectre/issues/22)
+    - [x] Toasts
     - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
 
   - **Utilities**:
