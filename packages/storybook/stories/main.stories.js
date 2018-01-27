@@ -20,6 +20,7 @@ import step from './components/step'
 import toast from './components/toast'
 import tab from './components/tab'
 import card from './components/card'
+import popover from './components/popover'
 import panel from './components/panel'
 
 const elementStories = storiesOf('Elements', module)
@@ -49,4 +50,5 @@ step(componentsStories)
 toast(componentsStories)
 tab(componentsStories)
 card(componentsStories)
+popover(componentsStories)
 panel(componentsStories)
