@@ -6,12 +6,13 @@
   "main": "dist/tab.js",
   "browser": "dist/tab.umd.js",
   "module": "dist/tab.es.js",
-  "repository":
-    "https://github.com/react-spectre/react-spectre/tree/master/packages/tab",
-  "author":
-    "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/tab",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "license": "MIT",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
