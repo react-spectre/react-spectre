@@ -1,0 +1,27 @@
+{
+  "name": "@react-spectre/tooltip",
+  "version": "1.0.0-16",
+  "description": "React components for Spectre.css tooltips.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/tooltip.js",
+  "browser": "dist/tooltip.umd.js",
+  "module": "dist/tooltip.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/tooltip",
+  "author": "William Cabrera <williamcabrera4@gmail.com> (http://github.com/williamcabrera4)",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
