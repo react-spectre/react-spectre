@@ -1,0 +1,29 @@
+{
+  "name": "@react-spectre/empty",
+  "version": "1.0.0-16",
+  "description": "React components for Spectre.css's empty component.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/empty.js",
+  "browser": "dist/empty.umd.js",
+  "module": "dist/empty.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/empty",
+  "contributors": [
+    "Kelvin de Moya <kdemoya17@gmail.com> (http://github.com/kdemoya)",
+    "William Cabrera <williamcabrera4@gmail.com> (http://github.com/williamcabrera4)"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
