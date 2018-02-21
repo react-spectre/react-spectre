@@ -1,12 +1,12 @@
 {
-  "name": "@react-spectre/tab",
+  "name": "@react-spectre/tile",
   "version": "1.0.0-16",
-  "description": "React components for Spectre.css's tabs.",
+  "description": "React components for Spectre.css's tile.",
   "jsnext:main": "src/index.js",
-  "main": "dist/tab.js",
-  "browser": "dist/tab.umd.js",
-  "module": "dist/tab.es.js",
-  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/tab",
+  "main": "dist/tile.js",
+  "browser": "dist/tile.umd.js",
+  "module": "dist/tile.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/tile",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "contributors": [
     "Kenji Mukai <kensuka21@gmail.com> (https://github.com/kensuka21)"
