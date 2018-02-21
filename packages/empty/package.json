@@ -7,6 +7,7 @@
   "browser": "dist/empty.umd.js",
   "module": "dist/empty.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/empty",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "contributors": [
     "Kelvin de Moya <kdemoya17@gmail.com> (http://github.com/kdemoya)",
     "William Cabrera <williamcabrera4@gmail.com> (http://github.com/williamcabrera4)"
