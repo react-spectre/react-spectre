@@ -7,7 +7,10 @@
   "browser": "dist/tooltip.umd.js",
   "module": "dist/tooltip.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/tooltip",
-  "author": "William Cabrera <williamcabrera4@gmail.com> (http://github.com/williamcabrera4)",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "contributors": [
+    "William Cabrera <williamcabrera4@gmail.com> (http://github.com/williamcabrera4)"
+  ],
   "license": "MIT",
   "files": [
     "dist",
