@@ -118,7 +118,7 @@ yarn package:create -- <name-of-package>
     - [x] Avatars
     - [x] Badges
     - [x] Bars
-    - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
+    - [x] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
     - [x] Cards
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
     - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
