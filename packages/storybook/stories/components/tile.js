@@ -44,8 +44,8 @@ export default stories => {
                 <Tile.Content>
                   <Tile.Title>The Avengers</Tile.Title>
                   <Tile.SubTitle className="text-gray">
-                    Earth's Mightiest Heroes joined forces to take on threats
-                    that were too big for any one hero to tackle...
+                    Earth&apos;s Mightiest Heroes joined forces to take on
+                    threats that were too big for any one hero to tackle...
                   </Tile.SubTitle>
                 </Tile.Content>
 
@@ -69,8 +69,8 @@ export default stories => {
                 <Tile.Content>
                   <Tile.Title>The Avengers</Tile.Title>
                   <Tile.SubTitle className="text-gray">
-                    Earth's Mightiest Heroes joined forces to take on threats
-                    that were too big for any one hero to tackle...
+                    Earth&apos;s Mightiest Heroes joined forces to take on
+                    threats that were too big for any one hero to tackle...
                   </Tile.SubTitle>
 
                   <Button primary>Join</Button>
