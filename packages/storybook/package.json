@@ -31,7 +31,8 @@
     "@react-spectre/tile": "^1.0.0-16",
     "@react-spectre/toast": "^1.0.0-16",
     "@react-spectre/typography": "^1.0.0-16",
-    "@react-spectre/panel": "^1.0.0-16"
+    "@react-spectre/panel": "^1.0.0-16",
+    "@react-spectre/breadcrumb": "^1.0.0-16"
   },
   "private": true
 }
