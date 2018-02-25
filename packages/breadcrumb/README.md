@@ -29,7 +29,17 @@ import { Breadcrumb } from '@react-spectre/breadcrumb'
 ```
 
 ```jsx
-
+<Breadcrumb>
+  <Breadcrumb.Item>
+    <a href="#">Home</a>
+  </Breadcrumb.Item>
+  <Breadcrumb.Item>
+    <a href="#">Settings</a>
+  </Breadcrumb.Item>
+  <Breadcrumb.Item>
+    <a href="#">Change avatar</a>
+  </Breadcrumb.Item>
+</Breadcrumb>
 ```
 
 > **Note:** The main component is `Breadcrumb`, the other component can be accessed through it, for example: `Breadcrumb.Item`.
