@@ -130,7 +130,7 @@ yarn package:create -- <name-of-package>
     - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
     - [x] Steps
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
-    - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
+    - [x] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
     - [x] Toasts
     - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
 
