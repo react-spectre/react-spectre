@@ -1,0 +1,26 @@
+{
+  "name": "@react-spectre/modal",
+  "version": "1.0.0-16",
+  "description": "React components for Spectre.css modal elements.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/modal.js",
+  "browser": "dist/modal.umd.js",
+  "module": "dist/modal.es.js",
+  "repository":
+    "https://github.com/react-spectre/react-spectre/blob/master/packages/modal",
+  "author":
+    "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "license": "MIT",
+  "files": ["dist", "src"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.1"
+  }
+}

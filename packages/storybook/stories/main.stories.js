@@ -23,6 +23,7 @@ import toast from './components/toast'
 import card from './components/card'
 import popover from './components/popover'
 import panel from './components/panel'
+import modal from './components/modal'
 
 const elementStories = storiesOf('Elements', module)
 const layoutStories = storiesOf('Layout', module)
@@ -54,3 +55,4 @@ tile(componentsStories)
 card(componentsStories)
 popover(componentsStories)
 panel(componentsStories)
+modal(componentsStories)
