@@ -1,15 +1,15 @@
 {
-  "name": "@react-spectre/step",
+  "name": "@react-spectre/tile",
   "version": "1.0.0-16",
-  "description": "React components for Spectre.css's steps.",
+  "description": "React components for Spectre.css's tile.",
   "jsnext:main": "src/index.js",
-  "main": "dist/step.js",
-  "browser": "dist/step.umd.js",
-  "module": "dist/step.es.js",
-  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/step",
+  "main": "dist/tile.js",
+  "browser": "dist/tile.umd.js",
+  "module": "dist/tile.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/tree/master/packages/tile",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
   "contributors": [
-    "César Contreras <ccdl15c@gmail.com> (https://github.com/ccontreras)"
+    "Kenji Mukai <kensuka21@gmail.com> (https://github.com/kensuka21)"
   ],
   "license": "MIT",
   "files": [
@@ -17,7 +17,6 @@
     "src"
   ],
   "dependencies": {
-    "@react-spectre/label": "^1.0.0-16",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },

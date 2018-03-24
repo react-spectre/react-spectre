@@ -8,6 +8,9 @@
   "module": "dist/avatar.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/avatar",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "contributors": [
+    "Ángel Piña <six.aps@gmail.com> (https://github.com/0aps)"
+  ],
   "license": "MIT",
   "files": [
     "dist",

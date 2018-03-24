@@ -8,6 +8,9 @@
   "module": "dist/accordion.es.js",
   "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/accordion",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com> (http://github.com/rmariuzzo)",
+  "contributors": [
+    "Ángel Piña <six.aps@gmail.com> (https://github.com/0aps)"
+  ],
   "license": "MIT",
   "files": [
     "dist",

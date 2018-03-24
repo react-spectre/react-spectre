@@ -17,8 +17,9 @@ import avatar from './components/avatar'
 import badge from './components/badge'
 import bar from './components/bar'
 import step from './components/step'
-import toast from './components/toast'
 import tab from './components/tab'
+import tile from './components/tile'
+import toast from './components/toast'
 import card from './components/card'
 import popover from './components/popover'
 import panel from './components/panel'
@@ -49,6 +50,7 @@ bar(componentsStories)
 step(componentsStories)
 toast(componentsStories)
 tab(componentsStories)
+tile(componentsStories)
 card(componentsStories)
 popover(componentsStories)
 panel(componentsStories)
