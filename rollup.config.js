@@ -1,11 +1,11 @@
 import path from 'path'
 import glob from 'glob'
 import babel from 'rollup-plugin-babel'
-import uglify from 'rollup-plugin-uglify'
+import { uglify } from 'rollup-plugin-uglify';
 import replace from 'rollup-plugin-replace'
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
-import { minify } from 'uglify-es'
+import { terser } from "rollup-plugin-terser";
 import { capitalize, get } from 'lodash'
 
 // Read all public packages.
@@ -99,7 +99,7 @@ export default pkgs
 
     if (process.env.NODE_ENV === 'production') {
       configs.forEach(config => {
-        config.plugins.push(uglify({}, minify))
+        config.plugins.push(terser())
       })
     }
 
