@@ -1,0 +1,27 @@
+{
+  "name": "@react-spectre/pagination",
+  "version": "1.0.0-16",
+  "description": "React components for Spectre.css pagination element.",
+  "jsnext:main": "src/index.js",
+  "main": "dist/pagination.js",
+  "browser": "dist/pagination.umd.js",
+  "module": "dist/pagination.es.js",
+  "repository": "https://github.com/react-spectre/react-spectre/blob/master/packages/pagination",
+  "author": "Rakesh R <rekala.rakesh@gmail.com> (https://github.com/rakesh0r)",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  }
+}
