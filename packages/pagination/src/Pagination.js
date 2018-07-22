@@ -51,7 +51,6 @@ const Ellipsis = props => (
 class Pagination extends Component {
   constructor(props) {
     super(props)
-    console.log(this)
     this.state = {
       current: this.props.defaultValue
     }
