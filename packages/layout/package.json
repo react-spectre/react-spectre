@@ -20,7 +20,7 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/grid": "^1.0.0-16",
-    "@react-spectre/navbar": "^1.0.0-16"
+    "@react-spectre/grid": "file:../grid",
+    "@react-spectre/navbar": "file:../navbar"
   }
 }

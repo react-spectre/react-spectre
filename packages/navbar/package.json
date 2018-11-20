@@ -17,7 +17,7 @@
     "src"
   ],
   "dependencies": {
-    "@react-spectre/label": "^1.0.0-16",
+    "@react-spectre/label": "file:../label",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   },

@@ -21,12 +21,12 @@
     "react-dom": "^16.2.0"
   },
   "dependencies": {
-    "@react-spectre/button": "^1.0.0-16",
-    "@react-spectre/form": "^1.0.0-16",
-    "@react-spectre/icon": "^1.0.0-16",
-    "@react-spectre/label": "^1.0.0-16",
-    "@react-spectre/media": "^1.0.0-16",
-    "@react-spectre/table": "^1.0.0-16",
-    "@react-spectre/typography": "^1.0.0-16"
+    "@react-spectre/button": "file:../button",
+    "@react-spectre/form": "file:../form",
+    "@react-spectre/icon": "file:../icon",
+    "@react-spectre/label": "file:../label",
+    "@react-spectre/media": "file:../media",
+    "@react-spectre/table": "file:../table",
+    "@react-spectre/typography": "file:../typography"
   }
 }
