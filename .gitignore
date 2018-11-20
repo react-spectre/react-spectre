@@ -65,3 +65,6 @@ dist/
 
 # VSCode configs
 .vscode
+
+# Storybook cache
+.cache
