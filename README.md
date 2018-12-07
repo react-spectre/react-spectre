@@ -118,7 +118,7 @@ yarn package:create -- <name-of-package>
     - [x] Avatars
     - [x] Badges
     - [x] Bars
-    - [ ] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
+    - [x] Breadcrumbs - [View issue](https://github.com/react-spectre/react-spectre/issues/9)
     - [x] Cards
     - [ ] Chips - [View issue](https://github.com/react-spectre/react-spectre/issues/11)
     - [ ] Empty states - [View issue](https://github.com/react-spectre/react-spectre/issues/12)
@@ -130,7 +130,7 @@ yarn package:create -- <name-of-package>
     - [ ] Popovers - [View issue](https://github.com/react-spectre/react-spectre/issues/18)
     - [x] Steps
     - [ ] Tabs - [View issue](https://github.com/react-spectre/react-spectre/issues/20)
-    - [ ] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
+    - [x] Tiles - [View issue](https://github.com/react-spectre/react-spectre/issues/21)
     - [x] Toasts
     - [ ] Tooltips - [View issue](https://github.com/react-spectre/react-spectre/issues/23)
 
