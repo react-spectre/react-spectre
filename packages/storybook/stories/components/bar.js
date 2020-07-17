@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Bar, Slider } from '@react-spectre/bar'
+import { Bar, Slider } from '../../../bar'
 
 export default stories => {
   stories.add(

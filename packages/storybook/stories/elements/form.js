@@ -9,7 +9,7 @@ import {
   CheckBox,
   TextArea,
   FormGroup
-} from '@react-spectre/form'
+} from '../../../form'
 
 export default stories => {
   stories.add(

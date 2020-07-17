@@ -1,9 +1,9 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { H4 } from '@react-spectre/typography'
-import { Icon } from '@react-spectre/icon'
-import { Button } from '@react-spectre/button'
+import { H4 } from '../../../typography'
+import { Icon } from '../../../icon'
+import { Button } from '../../../button'
 
 const buttonStyle = { margin: '0 20px 20px 0' }
 

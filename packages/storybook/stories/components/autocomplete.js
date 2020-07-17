@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Autocomplete } from '@react-spectre/autocomplete'
+import { Autocomplete } from '../../../autocomplete'
 
 export default stories => {
   stories.add(

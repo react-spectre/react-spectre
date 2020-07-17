@@ -1,9 +1,9 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Button } from '@react-spectre/button'
-import { Popover } from '@react-spectre/popover'
-import { Card } from '@react-spectre/card'
+import { Button } from '../../../button'
+import { Popover } from '../../../popover'
+import { Card } from '../../../card'
 
 export default stories => {
   stories.add(

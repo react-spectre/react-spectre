@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Avatar } from '@react-spectre/avatar'
+import { Avatar } from '../../../avatar'
 
 export default stories => {
   stories.add(

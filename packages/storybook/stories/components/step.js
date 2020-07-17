@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Step } from '@react-spectre/step'
+import { Step } from '../../../step'
 
 export default stories => {
   stories.add(

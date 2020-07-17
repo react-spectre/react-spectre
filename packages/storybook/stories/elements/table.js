@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Table, Header, Body, Row, Heading, Cell } from '@react-spectre/table'
+import { Table, Header, Body, Row, Heading, Cell } from '../../../table'
 
 export default stories => {
   stories.add(

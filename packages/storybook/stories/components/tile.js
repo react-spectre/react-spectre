@@ -1,11 +1,11 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Tile } from '@react-spectre/tile'
-import { Image } from '@react-spectre/media'
-import { Button } from '@react-spectre/button'
-import { Avatar } from '@react-spectre/avatar'
-import { Grid, Col, Row } from '@react-spectre/grid'
+import { Tile } from '../../../tile'
+import { Image } from '../../../media'
+import { Button } from '../../../button'
+import { Avatar } from '../../../avatar'
+import { Grid, Col, Row } from '../../../grid'
 
 export default stories => {
   stories.add(

@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Label } from '@react-spectre/label'
+import { Label } from '../../../label'
 
 Label.displayName = 'Label'
 

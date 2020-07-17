@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Image, Figure, Video } from '@react-spectre/media'
+import { Image, Figure, Video } from '../../../media'
 
 export default stories => {
   stories.add(

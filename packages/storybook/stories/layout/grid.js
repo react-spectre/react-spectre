@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Grid, Col, Row } from '@react-spectre/grid'
+import { Grid, Col, Row } from '../../../grid'
 
 export default stories => {
   stories.add(

@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Tab, Label } from '@react-spectre/tab'
+import { Tab, Label } from '../../../tab'
 
 export default stories => {
   stories.add(

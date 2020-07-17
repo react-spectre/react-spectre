@@ -1,9 +1,9 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Card } from '@react-spectre/card'
-import { Button } from '@react-spectre/button'
-import { Grid, Col } from '@react-spectre/grid'
+import { Card } from '../../../card'
+import { Button } from '../../../button'
+import { Grid, Col } from '../../../grid'
 
 export default stories => {
   stories.add(

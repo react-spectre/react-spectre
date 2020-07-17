@@ -1,9 +1,9 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Badge } from '@react-spectre/badge'
-import { Button } from '@react-spectre/button'
-import { Figure, Image } from '@react-spectre/media'
+import { Badge } from '../../../badge'
+import { Button } from '../../../button'
+import { Figure, Image } from '../../../media'
 
 export default stories => {
   stories.add(

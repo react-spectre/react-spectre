@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Button, Group } from '@react-spectre/button'
+import { Button, Group } from '../../../button'
 
 export default stories => {
   stories.add(

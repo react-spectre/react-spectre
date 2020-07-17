@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Navbar } from '@react-spectre/navbar'
+import { Navbar } from '../../../navbar'
 
 export default stories => {
   stories.add(

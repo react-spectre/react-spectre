@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Accordion } from '@react-spectre/accordion'
+import { Accordion } from '../../../accordion'
 
 export default stories => {
   stories.add(

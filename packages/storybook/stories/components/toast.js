@@ -1,7 +1,7 @@
 import React from 'react'
 import { withInfo } from '@storybook/addon-info'
 
-import { Toast } from '@react-spectre/toast'
+import { Toast } from '../../../toast'
 
 export default stories => {
   stories.add(
